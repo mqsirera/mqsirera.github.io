@@ -1,0 +1,51 @@
+---
+title: "Miquel Sirera Perelló"
+image: files/headshot.jpg
+about:
+  id: about-section
+  template: trestles
+  links: 
+    - icon: instagram
+      href: https://www.instagram.com/mq.sirera/
+    - icon: github
+      text: Github
+      href: https://github.com/mqsirera
+    - icon: linkedin
+      text: LinkedIn
+      href: www.linkedin.com/in/mqsirera
+    - icon: filetype-pdf
+      text: Resume
+      href: files/MiquelSireraCV.pdf
+---
+
+
+## Welcome
+*Welcome to my Website! I'm Miquel, currently pursuing my PhD at Northeastern University. My research revolves around the dynamic field of telecomms, where I'm deeply engaged in exploring the applications of Machine Learning and Artificial Intelligence. Join me on this exciting journey as we delve into the future of technology, including the promising realm of 6G and beyond. Don't hesitate to connect with me on LinkedIn or at **sirera.m\@northeastern.edu** if you find our work intriguing, wish to explore collaboration opportunities, or if you have any inquiries. Let's work together to shape the next generation of telecommunications!*
+
+::: {#about-section}
+
+### Education
+
+Universitat Politècnica de Catalunya \| *BSc on Data Science* \| 2019 - 2023
+
+Northeastern University \| *PhD on Computer Engineering* \| 2024 - Current
+
+### Experience
+
+Abi Global Health \| *AI Engineer intern* \| 2022
+
+Northeastern University \| *UG Research Assistant* \| 2023
+
+
+[Download My Resume - PDF](files/MiquelSireraCV.pdf.pdf){.btn .btn-primary}
+
+:::
+
+## Current projects
+- **Survey on LLMs for 6G**
+
+Our project aims to conduct a comprehensive survey on the utilization of Language Models (LLMs) in the context of 6G technology. We will investigate how LLMs are shaping the landscape of 6G development, exploring their applications, benefits, and potential challenges. By gathering valuable insights from industry experts and researchers, we seek to gain a deeper understanding of how LLMs are influencing the future of 6G.
+
+- **Practical use for LLMs in telecomms**
+
+Our project is centered around the fine-tuning of a Language Model (LLM) to act as a seamless bridge between network configurations and operators, all through natural language interactions. We're dedicated to creating an intuitive and efficient interface that allows operators to communicate with network configurations effortlessly. By harnessing the power of LLMs, we aim to streamline network management and enhance operational efficiency, ultimately revolutionizing the way operators interact with and manage complex networks.

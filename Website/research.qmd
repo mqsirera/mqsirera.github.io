@@ -1,0 +1,16 @@
+---
+title: My Research
+layout: page
+---
+
+Hello and a warm welcome to my research corner! This is the place where I share my latest research papers and articles. It's all about digging into the fascinating world of AI and all its different applications. Join me in this scholarly adventure as we explore exciting ideas, challenge the norm, and have some intellectual fun along the way. Feel free to dive into my research, and let's keep the conversation going!
+
+## Articles
+
+| Title        | Authors             | Download PDF |
+| ------------ | ------------------- | ------------ |
+| AI for Wireless Communications | Miquel Sirera, Kaushik Chowhury, Albert Cabellos-Aparicio | [Download]({{ research/TFG.pdf }}) |
+| T-PRIME: Transformer-based Protocol Identification for Machine-learning at the Edge | Mauro Belgiovine, Joshua Groen, Miquel Sirera, Chinenye Tassie, Sage Trudeau, Stratis Ioannidis, Kaushik Chowdhury | Not available yet |
+
+
+
