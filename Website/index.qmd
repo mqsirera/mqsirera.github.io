@@ -12,7 +12,7 @@ about:
       href: https://github.com/mqsirera
     - icon: linkedin
       text: LinkedIn
-      href: www.linkedin.com/in/mqsirera
+      href: https://www.linkedin.com/in/mqsirera/
     - icon: filetype-pdf
       text: Resume
       href: files/MiquelSireraCV.pdf
