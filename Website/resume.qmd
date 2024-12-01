@@ -1,4 +1,5 @@
-[Download My CV - PDF](MiquelSireraCV.pdf "Miquel Sirera's CV"){.btn .btn-primary}
+[Download My Academic CV - PDF](./files/MiquelSirera_AcademicCV_Dec2024.pdfMiquelSireraCV.pdf "Miquel Sirera's Academic CV"){.btn .btn-primary}
+[Download My Regular CV - PDF](./files/MiquelSireraPerelloPhDNEU_Dec2024.pdf "Miquel Sirera's CV"){.btn .btn-primary}
 
 ::: panel-tabset
 # Profile
@@ -25,7 +26,7 @@ Recently graduated with a strong academic record, I proudly achieved an exceptio
 
 *January 2024 - Present*
 
-I've recently embarked on a remarkable journey as a Ph.D. student in Computer Engineering at Northeastern University. My research focus revolves around the fascinating realm of Artificial Intelligence (AI) and its pivotal role in shaping the next generation of telecommunications technologies. In a world that's increasingly reliant on seamless and efficient communication, AI emerges as a game-changer. It offers innovative solutions for optimizing network performance, automating resource allocation, and enhancing security in telecomms. As I delve deeper into this field, I'm driven by the belief that AI holds the key to revolutionizing how we connect, communicate, and pave the way for cutting-edge technologies like 6G and beyond.
+As a Ph.D. student in Computer Engineering at Northeastern University, my research focuses on the intersection of Machine Learning, Large Language Models (LLMs), Distributed Training and Inference, and Wireless Communications. I am deeply interested in both advancing core AI methodologies and exploring how telecommunications can be optimized to support AI systems, such as through efficient distributed inference and scalable deployments. At the same time, I investigate how AI can transform telecommunications by improving network performance, automating resource management, and enhancing security. By bridging these domains, I aim to contribute to innovations that will shape the future of both AI and wireless communications, driving advancements in next-generation technologies like 6G and beyond.
 
 # Experience {style="text-align:justify"}
 
@@ -35,7 +36,7 @@ I've recently embarked on a remarkable journey as a Ph.D. student in Computer En
 
 While developing my Bachelor's thesis, I worked alongside a research team at the university focused on integrating Artificial Intelligence into wireless communications. This group is part of the Institute for the Wireless Internet of Things, and their primary goal is to create advanced solutions for wireless communication challenges. In this context, I was responsible for devising and implementing AI-driven approaches, specifically in the realm of signal classification. This experience solidified my understanding of AI's impact on wireless technologies and fueled my enthusiasm for contributing further to this evolving field.
 
-### Abi Global Health, AI Engineering internship {style="text-align:justify"}
+### Abi Global Health, AI Engineer internship {style="text-align:justify"}
 
 *March 2022 - December 2022*
 

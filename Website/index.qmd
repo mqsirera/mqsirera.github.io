@@ -15,7 +15,19 @@ about:
       href: https://www.linkedin.com/in/mqsirera/
     - icon: filetype-pdf
       text: Resume
-      href: files/MiquelSireraCV.pdf
+      href: ./files/MiquelSirera_AcademicCV_Dec2024.pdf
+    - icon: fa-link
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=DF9KcekAAAAJ
+    - icon: fa-link
+      text: ORCID
+      href: https://orcid.org/0009-0005-8840-6746
+    - icon: fa-link
+      text: DBLP
+      href: https://dblp.org/pid/366/4777.html
+    - icon: fa-link
+      text: Semantic Scholar
+      href: https://www.semanticscholar.org/author/Miquel-Sirera/2278836383
 ---
 
 
@@ -37,7 +49,7 @@ Abi Global Health \| *AI Engineer intern* \| 2022
 Northeastern University \| *UG Research Assistant* \| 2023
 
 
-[Download My Resume - PDF](files/MiquelSireraCV.pdf.pdf){.btn .btn-primary}
+[Download My Resume - PDF](./files/MiquelSirera_AcademicCV_Dec2024.pdf){.btn .btn-primary}
 
 :::
 
@@ -50,14 +62,18 @@ Our project aims to conduct a comprehensive survey on the utilization of Languag
 
 Our project is centered around the fine-tuning of a Language Model (LLM) to act as a seamless bridge between network configurations and operators, all through natural language interactions. We're dedicated to creating an intuitive and efficient interface that allows operators to communicate with network configurations effortlessly. By harnessing the power of LLMs, we aim to streamline network management and enhance operational efficiency, ultimately revolutionizing the way operators interact with and manage complex networks. -->
 
-- **JARVIS: Disjoint Large Language Models on Radio VLANs for Intelligent Services**
+- **Distributed Large Language Models inference in challenging environments**
 
-Our project proposes JARVIS, a distributed framework for Large Language Models (LLMs), which splits model layers across edge devices with limited compute resources. This approach enhances resilience to individual node failures through peer-level communication and layer redundancy. Evaluated using Google’s Gemma LLM (2B parameters) over 18 software-defined radios in the NSF Colosseum RF emulator, JARVIS demonstrates robustness in tactical environments by balancing computation and communication.
+We are actively building upon the **JARVIS project**—a distributed framework for Large Language Models (LLMs) that intelligently partitions model layers across edge devices with constrained computational resources. [Read the original paper in Research](/research).
+
+JARVIS introduces enhanced resilience to node failures through peer-to-peer communication and layer redundancy, ensuring reliable performance even in challenging conditions. We evaluated this framework with Google's Gemma LLM (2B parameters), deploying it on 18 software-defined radios in the NSF Colosseum RF emulator and a 7-node Raspberry Pi testbed.
+
+Our results demonstrate JARVIS’s robustness in tactical environments, achieving an optimal balance between computation and communication for real-world applications.
 
 - **Neural Point Processes for Pixel-wise Regression**
 
-This project addresses the challenge of pixel-wise regression problems with sparsely annotated images. Traditional methods struggle with unlabeled areas, leading to distorted predictions. We introduce Neural Point Processes, combining 2D Gaussian Processes with neural networks to leverage spatial correlations between sparse labels. Our method significantly improves mean-squared error and R2 scores, outperforming standard regression techniques across both real-world and synthetic datasets.
+In this project we address the challenge of pixel-wise regression problems with sparsely annotated images. Traditional methods struggle with unlabeled areas, leading to distorted predictions. We introduce Neural Point Processes, combining 2D Gaussian Processes with neural networks to leverage spatial correlations between sparse labels. Our method significantly improves mean-squared error and $R^{2}$ scores, outperforming standard regression techniques across both real-world and synthetic datasets.
 
 - **Extension of Communication-Aware DNN Pruning**
 
-In this project, we extend the work on communication-aware deep neural network (DNN) pruning. We focus on training networks to be deployed in a distributed fashion, reducing the need for information exchange while maintaining high accuracy. This approach aims to optimize network performance by balancing computational load and communication efficiency, ensuring robust deployment in distributed environments.
+In this project, we extend the work on [communication-aware deep neural network (DNN) pruning](https://ece.northeastern.edu/fac-ece/ioannidis/static/pdf/2023/C_Jian_CommAwarePrune_Infocom2023.pdf). We focus on training networks to be deployed in a distributed fashion, reducing the need for information exchange while maintaining high accuracy. This approach aims to optimize network performance by balancing computational load and communication efficiency, ensuring robust deployment in distributed environments.
