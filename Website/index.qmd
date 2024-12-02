@@ -6,6 +6,7 @@ about:
   template: trestles
   links: 
     - icon: instagram
+      text: Instagram
       href: https://www.instagram.com/mq.sirera/
     - icon: github
       text: Github

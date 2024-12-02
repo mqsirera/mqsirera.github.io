@@ -1,4 +1,4 @@
-[Download My Academic CV - PDF](./files/MiquelSirera_AcademicCV_Dec2024.pdfMiquelSireraCV.pdf "Miquel Sirera's Academic CV"){.btn .btn-primary}
+[Download My Academic CV - PDF](./files/MiquelSirera_AcademicCV_Dec2024.pdf "Miquel Sirera's Academic CV"){.btn .btn-primary}
 [Download My Regular CV - PDF](./files/MiquelSireraPerelloPhDNEU_Dec2024.pdf "Miquel Sirera's CV"){.btn .btn-primary}
 
 ::: panel-tabset
@@ -10,11 +10,11 @@ I am a motivated graduate with a bachelor's degree in Data Science and Engineeri
 
 # Education {style="text-align:justify"}
 
-### High School, La Salle Bonanova, Barcelona {style="text-align:justify"}
+### PhD in Computer Engineering, Norhteastern University, Boston {style="text-align:justify"}
 
-*September 2017 - June 2019*
+*January 2024 - Present*
 
-I graduated with honors, achieving a remarkable score of 13.556 out of 14 in the university entrance exams (PAU). This accomplishment earned me the prestigious PAU distinction. Additionally, I actively participated in various math contests, including Pangea and "Fem Matemàtiques", further underscoring my commitment to academic excellence. My enthusiasm for mathematics led me to engage in advanced enrichment math classes, which significantly enriched my mathematical insights and skills.
+As a Ph.D. student in Computer Engineering at Northeastern University, my research focuses on the intersection of Machine Learning, Large Language Models (LLMs), Distributed Training and Inference, and Wireless Communications. I am deeply interested in both advancing core AI methodologies and exploring how telecommunications can be optimized to support AI systems, such as through efficient distributed inference and scalable deployments. At the same time, I investigate how AI can transform telecommunications by improving network performance, automating resource management, and enhancing security. By bridging these domains, I aim to contribute to innovations that will shape the future of both AI and wireless communications, driving advancements in next-generation technologies like 6G and beyond.
 
 ### BSc degree in Data Science and Engineering, Universitat Politècnica de Catalunya, Barcelona {style="text-align:justify"}
 
@@ -22,11 +22,11 @@ I graduated with honors, achieving a remarkable score of 13.556 out of 14 in the
 
 Recently graduated with a strong academic record, I proudly achieved an exceptional GPA of 8.89 out of 10 in my bachelor's education, demonstrating my unwavering commitment to academic excellence. Particularly noteworthy, I earned honorific distinctions in four rigorous courses: Discrete Mathematics and Logic, Mathematical Optimization, Search and Analysis of Information, and Advanced Topics of Data Science.
 
-### PhD in Computer Engineering, Norhteastern University, Boston {style="text-align:justify"}
+### High School, La Salle Bonanova, Barcelona {style="text-align:justify"}
 
-*January 2024 - Present*
+*September 2017 - June 2019*
 
-As a Ph.D. student in Computer Engineering at Northeastern University, my research focuses on the intersection of Machine Learning, Large Language Models (LLMs), Distributed Training and Inference, and Wireless Communications. I am deeply interested in both advancing core AI methodologies and exploring how telecommunications can be optimized to support AI systems, such as through efficient distributed inference and scalable deployments. At the same time, I investigate how AI can transform telecommunications by improving network performance, automating resource management, and enhancing security. By bridging these domains, I aim to contribute to innovations that will shape the future of both AI and wireless communications, driving advancements in next-generation technologies like 6G and beyond.
+I graduated with honors, achieving a remarkable score of 13.556 out of 14 in the university entrance exams (PAU). This accomplishment earned me the prestigious PAU distinction. Additionally, I actively participated in various math contests, including Pangea and "Fem Matemàtiques", further underscoring my commitment to academic excellence. My enthusiasm for mathematics led me to engage in advanced enrichment math classes, which significantly enriched my mathematical insights and skills.
 
 # Experience {style="text-align:justify"}
 

@@ -9,10 +9,10 @@ Hello and a warm welcome to my research corner! This is the place where I share 
 
 | Title        | Authors             | Venue        | Download PDF |
 | ------------ | ------------------- | ------------ | ------------ |
-| JARVIS: Disjoint Large Language Models on Radio VLANs for Intelligent Services | **Miquel Sirera Perelló**, Joshua Groen, Wan Liu, Stratis Ioannidis, Kaushik Chowdhury | IEEE MILCOM 2024 | [Download]({{ ./research/JARVIS.pdf }}) |
-| T-PRIME: Transformer-based Protocol Identification for Machine-learning at the Edge | Mauro Belgiovine, Joshua Groen, **Miquel Sirera Perelló**, Chinenye Tassie, Sage Trudeau, Stratis Ioannidis, Kaushik Chowdhury | IEEE INFOCOM 2024 | [Download]({{ ./research/T-PRIME.pdf }}) |
-| MEGATRON: Machine Learning in 5G with Analysis of Traffic in Open Radio Access Networks |	Mauro Belgiovine, Jerry Gu, Joshua Groen, **Miquel Sirera Perelló**, Utku Demir, Kaushik Chowdhury | ICNC 2024 | [Download]({{ ./research/MEGATRON.pdf }}) |
-| Deep Learning for Wireless Communications | **Miquel Sirera Perelló**, Kaushik Chowdhury, Albert Cabellos-Aparicio | Bachelor Thesis 2023 | [Download]({{ ./research/TFG.pdf }}) |
+| JARVIS: Disjoint Large Language Models on Radio VLANs for Intelligent Services | **Miquel Sirera Perelló**, Joshua Groen, Wan Liu, Stratis Ioannidis, Kaushik Chowdhury | IEEE MILCOM 2024 | [Download](./research/JARVIS.pdf "Download paper") |
+| T-PRIME: Transformer-based Protocol Identification for Machine-learning at the Edge | Mauro Belgiovine, Joshua Groen, **Miquel Sirera Perelló**, Chinenye Tassie, Sage Trudeau, Stratis Ioannidis, Kaushik Chowdhury | IEEE INFOCOM 2024 | [Download](./research/T-PRIME.pdf "Download paper") |
+| MEGATRON: Machine Learning in 5G with Analysis of Traffic in Open Radio Access Networks |	Mauro Belgiovine, Jerry Gu, Joshua Groen, **Miquel Sirera Perelló**, Utku Demir, Kaushik Chowdhury | ICNC 2024 | [Download](./research/MEGATRON.pdf "Download paper") |
+| Deep Learning for Wireless Communications | **Miquel Sirera Perelló**, Kaushik Chowdhury, Albert Cabellos-Aparicio | Bachelor Thesis 2023 | [Download](./research/TFG.pdf "Download paper") |
 
 
 
