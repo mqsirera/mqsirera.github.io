@@ -3,7 +3,7 @@ project:
 
 website:
   title: ""
-  favicon: ".files/favicon.ico"
+  favicon: "./files/favicon.ico"
   navbar:
     left:
       - href: index.qmd
