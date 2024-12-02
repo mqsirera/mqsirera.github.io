@@ -1,5 +1,6 @@
 ---
 title: Resume
+favicon: "./files/favicon.ico"
 layout: page
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Miquel Sirera Perelló"
+favicon: "./files/favicon.ico"
 image: files/headshot.jpg
 about:
   id: about-section

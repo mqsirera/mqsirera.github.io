@@ -1,5 +1,6 @@
 ---
 title: My Research
+favicon: "./files/favicon.ico"
 layout: page
 ---
 
