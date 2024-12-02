@@ -65,7 +65,7 @@ Our project is centered around the fine-tuning of a Language Model (LLM) to act 
 
 - **Distributed Large Language Models inference in challenging environments**
 
-We are actively building upon the **JARVIS project**—a distributed framework for Large Language Models (LLMs) that intelligently partitions model layers across edge devices with constrained computational resources. [Read the original paper in Research](/research).
+We are actively building upon the **JARVIS project**—a distributed framework for Large Language Models (LLMs) that intelligently partitions model layers across edge devices with constrained computational resources. Read the original paper in [My Research](/research).
 
 JARVIS introduces enhanced resilience to node failures through peer-to-peer communication and layer redundancy, ensuring reliable performance even in challenging conditions. We evaluated this framework with Google's Gemma LLM (2B parameters), deploying it on 18 software-defined radios in the NSF Colosseum RF emulator and a 7-node Raspberry Pi testbed.
 
