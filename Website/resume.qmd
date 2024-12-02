@@ -1,3 +1,9 @@
+---
+title: Resume
+layout: page
+---
+
+
 [Download My Academic CV - PDF](./files/MiquelSirera_AcademicCV_Dec2024.pdf "Miquel Sirera's Academic CV"){.btn .btn-primary}
 [Download My Regular CV - PDF](./files/MiquelSireraPerelloPhDNEU_Dec2024.pdf "Miquel Sirera's CV"){.btn .btn-primary}
 
