@@ -16,7 +16,7 @@ about:
       href: https://www.linkedin.com/in/mqsirera/
     - icon: filetype-pdf
       text: Resume
-      href: ./files/MiquelSirera_AcademicCV_Dec2024.pdf
+      href: ./files/MiquelSirera_AcademicCV_Sep2025.pdf
     - icon: fa-link
       text: Google Scholar
       href: https://scholar.google.com/citations?user=DF9KcekAAAAJ
@@ -33,7 +33,7 @@ about:
 
 
 ## Welcome
-*Welcome to my Website! I'm Miquel, currently pursuing my PhD at Northeastern University. My research revolves around the dynamic field of telecomms, where I'm deeply engaged in exploring the applications of Machine Learning and Artificial Intelligence. Join me on this exciting journey as we delve into the future of technology, including the promising realm of 6G and beyond. Don't hesitate to connect with me on LinkedIn or at **sirera.m\@northeastern.edu** if you find our work intriguing, wish to explore collaboration opportunities, or if you have any inquiries. Let's work together to shape the next generation of telecommunications!*
+*Welcome to my Website! I'm Miquel, currently driven by a profound aspiration to further my knowledge through the pursuit of a Ph.D., with particular focus on Large Language Models (LLMs) and distributed AI systems. I'm passionate about engaging in cutting-edge research at the intersection of machine learning and distributed systems, pushing the boundaries of technological innovation to shape the future of AI. I'm excited to explore collaboration opportunities and make meaningful contributions to the field. Don't hesitate to connect with me on LinkedIn or at **sirera.m@northeastern.edu** if you find our work intriguing, wish to explore partnerships, or if you have any inquiries. Let's work together to advance the next generation of intelligent systems!*
 
 ::: {#about-section}
 
@@ -50,7 +50,7 @@ Abi Global Health \| *AI Engineer intern* \| 2022
 Northeastern University \| *UG Research Assistant* \| 2023
 
 
-[Download My Resume - PDF](./files/MiquelSirera_AcademicCV_Dec2024.pdf){.btn .btn-primary}
+[Download My Resume - PDF](./files/MiquelSirera_AcademicCV_Sep2025.pdf){.btn .btn-primary}
 
 :::
 
@@ -63,18 +63,22 @@ Our project aims to conduct a comprehensive survey on the utilization of Languag
 
 Our project is centered around the fine-tuning of a Language Model (LLM) to act as a seamless bridge between network configurations and operators, all through natural language interactions. We're dedicated to creating an intuitive and efficient interface that allows operators to communicate with network configurations effortlessly. By harnessing the power of LLMs, we aim to streamline network management and enhance operational efficiency, ultimately revolutionizing the way operators interact with and manage complex networks. -->
 
-- **Distributed Large Language Models inference in challenging environments**
+- **Building Resilience on Distributed Large Language Models**
 
 We are actively building upon the **JARVIS project**—a distributed framework for Large Language Models (LLMs) that intelligently partitions model layers across edge devices with constrained computational resources. Read the original paper in [My Research](/research).
 
 JARVIS introduces enhanced resilience to node failures through peer-to-peer communication and layer redundancy, ensuring reliable performance even in challenging conditions. We evaluated this framework with Google's Gemma LLM (2B parameters), deploying it on 18 software-defined radios in the NSF Colosseum RF emulator and a 7-node Raspberry Pi testbed.
 
-Our results demonstrate JARVIS’s robustness in tactical environments, achieving an optimal balance between computation and communication for real-world applications.
+Currently, we are exploring model adaptations that improve resilience to layer loss, as well as techniques to leverage redundancy in middle layers of LLMs for more efficient recovery, robustness, and optimized distributed execution.
 
-- **Neural Point Processes for Pixel-wise Regression**
+<!-- - **Neural Point Processes for Pixel-wise Regression**
 
-In this project we address the challenge of pixel-wise regression problems with sparsely annotated images. Traditional methods struggle with unlabeled areas, leading to distorted predictions. We introduce Neural Point Processes, combining 2D Gaussian Processes with neural networks to leverage spatial correlations between sparse labels. Our method significantly improves mean-squared error and $R^{2}$ scores, outperforming standard regression techniques across both real-world and synthetic datasets.
+In this project we address the challenge of pixel-wise regression problems with sparsely annotated images. Traditional methods struggle with unlabeled areas, leading to distorted predictions. We introduce Neural Point Processes, combining 2D Gaussian Processes with neural networks to leverage spatial correlations between sparse labels. Our method significantly improves mean-squared error and $R^{2}$ scores, outperforming standard regression techniques across both real-world and synthetic datasets. -->
 
 - **Extension of Communication-Aware DNN Pruning**
 
-In this project, we extend the work on [communication-aware deep neural network (DNN) pruning](https://ece.northeastern.edu/fac-ece/ioannidis/static/pdf/2023/C_Jian_CommAwarePrune_Infocom2023.pdf). We focus on training networks to be deployed in a distributed fashion, reducing the need for information exchange while maintaining high accuracy. This approach aims to optimize network performance by balancing computational load and communication efficiency, ensuring robust deployment in distributed environments.
+In this project, we extend the work on [communication-aware deep neural network (DNN) pruning](https://ece.northeastern.edu/fac-ece/ioannidis/static/pdf/2023/C_Jian_CommAwarePrune_Infocom2023.pdf). We focus on training networks to be deployed in a distributed fashion, reducing the need for information exchange while maintaining high accuracy. This approach aims to optimize network performance by balancing computational load and communication efficiency, ensuring robust deployment in distributed environments. We jointly prune and place the neurons of CNNs or MLP-based models to ensure efficient edge deployments under heterogeneous network conditions.
+
+- **Knowledge Editing in Large Language Models**
+
+We are currently exploring more efficient approaches to knowledge editing in LLMs, aiming to challenge the state of the art in this field. Our focus is on developing methods that enable models to update or correct specific facts and behaviors with minimal retraining and computational overhead, while preserving overall performance and generalization.

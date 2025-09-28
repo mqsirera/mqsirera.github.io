@@ -4,14 +4,14 @@ layout: page
 ---
 
 
-[Download My Academic CV - PDF](./files/MiquelSirera_AcademicCV_Dec2024.pdf "Miquel Sirera's Academic CV"){.btn .btn-primary}
-[Download My Regular CV - PDF](./files/MiquelSireraPerelloPhDNEU_Dec2024.pdf "Miquel Sirera's CV"){.btn .btn-primary}
+[Download My Academic CV - PDF](./files/MiquelSirera_AcademicCV_Sep2025.pdf "Miquel Sirera's Academic CV"){.btn .btn-primary}
+[Download My Regular CV - PDF](./files/MiquelSireraPerelloPhDNEU_Sep2025.pdf "Miquel Sirera's CV"){.btn .btn-primary}
 
 ::: panel-tabset
 # Profile
 
 ::: {style="text-align:justify"}
-I am a motivated graduate with a bachelor's degree in Data Science and Engineering from Universitat Politècnica de Catalunya. My academic journey has equipped me with a strong foundation in computer science, mathematics, statistics, and signal processing. Having recently completed my degree, I am now driven by a profound aspiration to further my knowledge and make significant contributions to the field of Computer Engineering through the pursuit of a Ph.D. I am enthusiastic about engaging in cutting-edge research, pushing the boundaries of technological innovation, and making a meaningful impact. With a proactive work ethic and a dedication to academic excellence, I am excited to embark on an advanced academic path and play a role in shaping the future of computer engineering.
+I am a motivated graduate with a bachelor's degree in Data Science and Engineering from Universitat Politècnica de Catalunya. My academic journey has equipped me with a strong foundation in computer science, mathematics, statistics, and signal processing. Having recently completed my degree, I am now driven by a profound aspiration to further my knowledge and make significant contributions to the field of Computer Engineering through the pursuit of a Ph.D. I am enthusiastic about engaging in cutting-edge research, pushing the boundaries of technological innovation, and making a meaningful impact. With a proactive work ethic and a dedication to academic excellence, I am excited to embark on an advanced academic path and play a role in shaping the future of machine learning and AI.
 :::
 
 # Education {style="text-align:justify"}
@@ -20,7 +20,7 @@ I am a motivated graduate with a bachelor's degree in Data Science and Engineeri
 
 *January 2024 - Present*
 
-As a Ph.D. student in Computer Engineering at Northeastern University, my research focuses on the intersection of Machine Learning, Large Language Models (LLMs), Distributed Training and Inference, and Wireless Communications. I am deeply interested in both advancing core AI methodologies and exploring how telecommunications can be optimized to support AI systems, such as through efficient distributed inference and scalable deployments. At the same time, I investigate how AI can transform telecommunications by improving network performance, automating resource management, and enhancing security. By bridging these domains, I aim to contribute to innovations that will shape the future of both AI and wireless communications, driving advancements in next-generation technologies like 6G and beyond.
+As a Ph.D. candidate in Computer Engineering at Northeastern University, my research focuses on the intersection of Machine Learning, Large Language Models (LLMs), Distributed Training and Inference, and Edge AI. I am deeply interested in advancing core AI methodologies, innovating solutions that make models more resilient and robust, and exploring how edge/cloud devices can be optimized to support AI systems through efficient distributed inference and scalable deployments. At the same time, I investigate how AI can transform telecommunications by improving network performance and automating resource management. I am particularly drawn to LLMs, with a focus on the attention mechanism and the challenges of knowledge representation and editing. Ultimately, my goal is to shape the future of AI by designing efficient, holistic systems that seamlessly integrate intelligence, scalability, and resilience.
 
 ### BSc degree in Data Science and Engineering, Universitat Politècnica de Catalunya, Barcelona {style="text-align:justify"}
 
