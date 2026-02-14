@@ -127,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="welcome" class="level2">
 <h2 data-anchor-id="welcome">Welcome</h2>
-<p><em>Welcome to my Website! I’m Miquel, currently driven by a profound aspiration to further my knowledge through the pursuit of a Ph.D., with particular focus on Large Language Models (LLMs) and distributed AI systems. I’m passionate about engaging in cutting-edge research at the intersection of machine learning and distributed systems, pushing the boundaries of technological innovation to shape the future of AI. I’m excited to explore collaboration opportunities and make meaningful contributions to the field. Don’t hesitate to connect with me on LinkedIn or at <strong>sirera.m@northeastern.edu</strong> if you find our work intriguing, wish to explore partnerships, or if you have any inquiries. Let’s work together to advance the next generation of intelligent systems!</em></p>
+<p><em>Hi, I’m Miquel. I’m doing a Ph.D.&nbsp;focused on Large Language Models (LLMs) and distributed AI—how we train and run these systems across many devices. I like working at the intersection of machine learning and distributed systems and I’m always open to collaboration. If any of this sounds interesting or you have questions, reach out on LinkedIn or at <strong>sirera.m@northeastern.edu</strong>.</em></p>
 <div class="quarto-about-trestles">
   <div class="about-entity">
     <img src="files/headshot.jpg" class="about-image
@@ -202,20 +202,20 @@ Our project is centered around the fine-tuning of a Language Model (LLM) to act 
 <ul>
 <li><strong>Building Resilience on Distributed Large Language Models</strong></li>
 </ul>
-<p>We are actively building upon the <strong>JARVIS project</strong>—a distributed framework for Large Language Models (LLMs) that intelligently partitions model layers across edge devices with constrained computational resources. Read the original paper in <a href="./research">My Research</a>.</p>
-<p>JARVIS introduces enhanced resilience to node failures through peer-to-peer communication and layer redundancy, ensuring reliable performance even in challenging conditions. We evaluated this framework with Google’s Gemma LLM (2B parameters), deploying it on 18 software-defined radios in the NSF Colosseum RF emulator and a 7-node Raspberry Pi testbed.</p>
-<p>Currently, we are exploring model adaptations that improve resilience to layer loss, as well as techniques to leverage redundancy in middle layers of LLMs for more efficient recovery, robustness, and optimized distributed execution.</p>
+<p>We’re extending the <strong>JARVIS project</strong>—a distributed framework for LLMs that splits model layers across edge devices with limited compute. More in <a href="./research">My Research</a>.</p>
+<p>JARVIS adds resilience to node failures via peer-to-peer communication and layer redundancy, so the system keeps working when things go wrong. We tested it with Google’s Gemma (2B parameters) on 18 software-defined radios in the NSF Colosseum RF emulator and a 7-node Raspberry Pi testbed.</p>
+<p>Right now we’re looking at model changes that handle layer loss better, and at using redundancy in middle layers for faster recovery and more robust distributed runs.</p>
 <!-- - **Neural Point Processes for Pixel-wise Regression**
 
 In this project we address the challenge of pixel-wise regression problems with sparsely annotated images. Traditional methods struggle with unlabeled areas, leading to distorted predictions. We introduce Neural Point Processes, combining 2D Gaussian Processes with neural networks to leverage spatial correlations between sparse labels. Our method significantly improves mean-squared error and $R^{2}$ scores, outperforming standard regression techniques across both real-world and synthetic datasets. -->
 <ul>
 <li><strong>Extension of Communication-Aware DNN Pruning</strong></li>
 </ul>
-<p>In this project, we extend the work on <a href="https://ece.northeastern.edu/fac-ece/ioannidis/static/pdf/2023/C_Jian_CommAwarePrune_Infocom2023.pdf">communication-aware deep neural network (DNN) pruning</a>. We focus on training networks to be deployed in a distributed fashion, reducing the need for information exchange while maintaining high accuracy. This approach aims to optimize network performance by balancing computational load and communication efficiency, ensuring robust deployment in distributed environments. We jointly prune and place the neurons of CNNs or MLP-based models to ensure efficient edge deployments under heterogeneous network conditions.</p>
+<p>We’re extending <a href="https://ece.northeastern.edu/fac-ece/ioannidis/static/pdf/2023/C_Jian_CommAwarePrune_Infocom2023.pdf">communication-aware DNN pruning</a>: training networks for distributed deployment so they need less communication while staying accurate. We prune and place neurons in CNNs and MLPs so they run well on the edge under mixed network conditions.</p>
 <ul>
 <li><strong>Knowledge Editing in Large Language Models</strong></li>
 </ul>
-<p>We are currently exploring more efficient approaches to knowledge editing in LLMs, aiming to challenge the state of the art in this field. Our focus is on developing methods that enable models to update or correct specific facts and behaviors with minimal retraining and computational overhead, while preserving overall performance and generalization.</p>
+<p>We’re looking at more efficient ways to edit knowledge in LLMs—updating or fixing specific facts and behaviors without full retraining, and without hurting overall performance.</p>
 
 
 
