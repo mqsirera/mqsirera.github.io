@@ -1,0 +1,28 @@
+How to publish your Quarto website to GitHub Pages
+==================================================
+
+(Using "way 2": quarto publish — render locally, then push to gh-pages.)
+
+1. One-time setup (if not done yet)
+   - On GitHub: repo → Settings → Pages
+     • Source: Deploy from a branch
+     • Branch: gh-pages
+     • Folder: / (root)
+     • Save
+   - If you don't have a gh-pages branch yet, create it:
+     git checkout --orphan gh-pages
+     git reset --hard
+     git commit --allow-empty -m "Initialising gh-pages branch"
+     git push origin gh-pages
+     git checkout main
+   - Make sure Website/_site and Website/.quarto are in .gitignore (so rendered output isn’t committed on main).
+
+2. Publish (every time you want to update the site)
+   - From the repo root:
+     cd Website
+     quarto publish gh-pages
+   - Confirm when prompted. Quarto will render the site, push to the gh-pages branch, and open the site in your browser when it’s live.
+
+3. If the site lives at a subpath (e.g. username.github.io/personalWebsite), that’s normal for project pages. User pages (username.github.io) use a repo named username.github.io.
+
+Full reference: https://quarto.org/docs/publishing/github-pages.html (section “Publish Command”).
