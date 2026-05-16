@@ -1,65 +1,72 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Miquel Sirera",
+    "section": "",
+    "text": "PhD student at Northeastern building\n      distributed LLMs that survive node failures,\n      run on the edge, and stay accurate under real‑world constraints.\n    \n    \n      \n        LinkedIn\n      \n      \n        GitHub\n      \n      \n        Email\n      \n      \n        CV\n      \n      \n        Scholar\n      \n      \n        Instagram"
+  },
+  {
+    "objectID": "index.html#hi-im-miquel",
+    "href": "index.html#hi-im-miquel",
+    "title": "Miquel Sirera",
+    "section": "Hi, I’m Miquel",
+    "text": "Hi, I’m Miquel\nI work at the intersection of machine learning and distributed systems — building large language models that can train and run across many devices, gracefully handle failure, and stay efficient at the edge.\nBefore Boston, I studied Data Science at UPC in Barcelona. I like research that ships, collaborators who push my thinking, and problems that don’t have a clean answer yet. If any of what’s below sounds interesting, reach out — I’m always up for a conversation.\n\nDistributed LLMs Resilient Inference Edge AI Knowledge Editing Wireless + ML PyTorch CUDA Python\n\n\nWhat I’m working on"
+  },
+  {
+    "objectID": "index.html#current-projects",
+    "href": "index.html#current-projects",
+    "title": "Miquel Sirera",
+    "section": "Current projects",
+    "text": "Current projects\n\n\nFlagship\n\nResilience for Distributed LLMs\nExtending JARVIS — a framework that splits LLM layers across edge devices with limited compute. We add peer-to-peer recovery and layer redundancy so the system keeps serving when nodes fail. Tested on Gemma-2B across 18 software-defined radios in the NSF Colosseum emulator and a 7-node Raspberry Pi cluster. More in Research.\n\n\n\nNetworking + ML\n\nCommunication-aware DNN pruning\nTraining networks for distributed deployment so they need less inter-device communication while staying accurate. Pruning and placing neurons in CNNs and MLPs so they run well on the edge under mixed network conditions. Builds on prior work from our group.\n\n\n\nLLMs\n\nKnowledge editing in LLMs\nLooking at more efficient ways to update or correct specific facts and behaviors inside large language models — without full retraining, and without breaking everything else the model knows.\n\n\n\n\nA bit more"
+  },
+  {
+    "objectID": "index.html#background",
+    "href": "index.html#background",
+    "title": "Miquel Sirera",
+    "section": "Background",
+    "text": "Background\n\n\n2024 — Present\n\nPhD, Computer Engineering\nNortheastern University · Boston\nDistributed LLMs, edge AI, and resilient inference. Advised in the Genesys lab.\n\n\n\n2023\n\nUndergraduate Research Assistant\nGenesys Lab, Northeastern · Boston\nBachelor’s thesis on AI for wireless — signal classification with deep models. Hooked me on AI + wireless and started my path here.\n\n\n\n2022\n\nAI Engineer Intern\nAbi Global Health · Remote\nMLOps monitoring and ML model work for a global tele-health platform.\n\n\n\n2019 — 2023\n\nBSc, Data Science & Engineering\nUniversitat Politècnica de Catalunya · Barcelona\nGPA 8.89/10. Honors in Discrete Math & Logic, Mathematical Optimization, Search & Analysis of Information, and Advanced Topics of Data Science.\n\n\n\n\nGet in touch"
+  },
+  {
+    "objectID": "index.html#say-hi",
+    "href": "index.html#say-hi",
+    "title": "Miquel Sirera",
+    "section": "Say hi",
+    "text": "Say hi\nBest way to reach me is sirera.m@northeastern.edu or LinkedIn. I read everything, even if my replies aren’t always fast."
+  },
+  {
     "objectID": "research.html",
     "href": "research.html",
-    "title": "My Research",
+    "title": "Research",
     "section": "",
-    "text": "Here are my research papers and where they’re published. Most of my work is on AI for wireless and distributed systems. Take a look and get in touch if you want to talk about any of it."
+    "text": "Publications & venues\nMost of my work sits at the intersection of AI, distributed systems, and wireless. Below is what’s published, where, and what I’m presenting next. If anything sparks ideas, reach out."
   },
   {
-    "objectID": "research.html#articles",
-    "href": "research.html#articles",
-    "title": "My Research",
-    "section": "Articles",
-    "text": "Articles\n\n\n\nTitle\nAuthors\nVenue\nDownload PDF\n\n\n\n\nNeural Point Processes for Pixel-wise Regression\nChengzhi Shi, Gözde Özcan, Miquel Sirera Perelló, Stratis Ioannidis\nAISTATS 2025\nDownload\n\n\nJARVIS: Disjoint Large Language Models on Radio VLANs for Intelligent Services\nMiquel Sirera Perelló, Joshua Groen, Wan Liu, Stratis Ioannidis, Kaushik Chowdhury\nIEEE MILCOM 2024\nDownload\n\n\nT-PRIME: Transformer-based Protocol Identification for Machine-learning at the Edge\nMauro Belgiovine, Joshua Groen, Miquel Sirera Perelló, Chinenye Tassie, Sage Trudeau, Stratis Ioannidis, Kaushik Chowdhury\nIEEE INFOCOM 2024\nDownload\n\n\nMEGATRON: Machine Learning in 5G with Analysis of Traffic in Open Radio Access Networks\nMauro Belgiovine, Jerry Gu, Joshua Groen, Miquel Sirera Perelló, Utku Demir, Kaushik Chowdhury\nICNC 2024\nDownload\n\n\nDeep Learning for Wireless Communications\nMiquel Sirera Perelló, Kaushik Chowdhury, Albert Cabellos-Aparicio\nBachelor Thesis 2023\nDownload"
+    "objectID": "research.html#papers",
+    "href": "research.html#papers",
+    "title": "Research",
+    "section": "Papers",
+    "text": "Papers\n\nAISTATS 2025\nNeural Point Processes for Pixel-wise Regression\nChengzhi Shi, Gözde Özcan, Miquel Sirera Perelló, Stratis Ioannidis\n\nPDF\n\n\n\nIEEE MILCOM 2024\nJARVIS: Disjoint Large Language Models on Radio VLANs for Intelligent Services\nMiquel Sirera Perelló, Joshua Groen, Wan Liu, Stratis Ioannidis, Kaushik Chowdhury\n\nPDF Poster\n\n\n\nIEEE INFOCOM 2024\nT-PRIME: Transformer-based Protocol Identification for Machine-learning at the Edge\nMauro Belgiovine, Joshua Groen, Miquel Sirera Perelló, Chinenye Tassie, Sage Trudeau, Stratis Ioannidis, Kaushik Chowdhury\n\nPDF\n\n\n\nICNC 2024\nMEGATRON: Machine Learning in 5G with Analysis of Traffic in Open Radio Access Networks\nMauro Belgiovine, Jerry Gu, Joshua Groen, Miquel Sirera Perelló, Utku Demir, Kaushik Chowdhury\n\nPDF\n\n\n\nBSc Thesis · 2023\nDeep Learning for Wireless Communications\nMiquel Sirera Perelló, Kaushik Chowdhury, Albert Cabellos-Aparicio\n\nPDF\n\n\n\nOn the road"
   },
   {
-    "objectID": "research.html#attended-conferences",
-    "href": "research.html#attended-conferences",
-    "title": "My Research",
-    "section": "Attended Conferences",
-    "text": "Attended Conferences\n\nMILCOM 2024 — Washington DC (presented)\nDownload Poster\nICLR 2025 — Singapore (attended)\nAISTATS 2025 — Phuket (presented)\nDownload Poster"
+    "objectID": "research.html#conferences-attended",
+    "href": "research.html#conferences-attended",
+    "title": "Research",
+    "section": "Conferences attended",
+    "text": "Conferences attended\n\n\nMILCOM 2024\nWashington, DC\nPresented\n\n\nICLR 2025\nSingapore\nAttended\n\n\nAISTATS 2025\nPhuket, Thailand\nPresented\n\n\n\nIndexes"
+  },
+  {
+    "objectID": "research.html#find-me-on",
+    "href": "research.html#find-me-on",
+    "title": "Research",
+    "section": "Find me on",
+    "text": "Find me on\nGoogle Scholar · ORCID · DBLP · Semantic Scholar"
   },
   {
     "objectID": "resume.html",
     "href": "resume.html",
     "title": "Resume",
     "section": "",
-    "text": "Download My Academic CV - PDF Download My Regular CV - PDF\n\nProfileEducationExperiencePersonal projectsSkills\n\n\n\nI have a BSc in Data Science and Engineering from Universitat Politècnica de Catalunya, with a solid base in CS, math, statistics, and signal processing. I’m now doing a Ph.D. in Computer Engineering and I’m into research that actually moves things forward—especially in ML and AI. I like to get things done and I’m looking to have a real impact in the field.\n\n\n\n\nPhD in Computer Engineering, Northeastern University, Boston\nJanuary 2024 - Present\nMy work is at the intersection of ML, LLMs, distributed training and inference, and edge AI. I care about making models more resilient and robust, and about how we can run AI efficiently on edge and cloud. I also look at how AI can improve telecom—network performance, automation. I’m especially interested in LLMs: attention, knowledge representation, and editing. I want to build systems that are efficient, scalable, and reliable.\n\n\nBSc degree in Data Science and Engineering, Universitat Politècnica de Catalunya, Barcelona\nSeptember 2019 - July 2023\nGraduated with a GPA of 8.89/10. Got honors in four courses: Discrete Mathematics and Logic, Mathematical Optimization, Search and Analysis of Information, and Advanced Topics of Data Science.\n\n\nHigh School, La Salle Bonanova, Barcelona\nSeptember 2017 - June 2019\nGraduated with honors; scored 13.556/14 on the university entrance exams (PAU) and got the PAU distinction. Took part in math contests (Pangea, “Fem Matemàtiques”) and did extra math enrichment classes.\n\n\n\n\nGenesys Lab at Northeastern University, BSc thesis development\nFebruary 2023 - July 2023\nI worked with a research team at the Institute for the Wireless Internet of Things on AI for wireless communications. I designed and implemented AI-based approaches for signal classification. That work got me interested on AI + wireless and I’ve been in that space since.\n\n\nAbi Global Health, AI Engineer internship\nMarch 2022 - December 2022\nInterned at a global tele-health company. I improved monitoring in their MLOps setup and helped the AI Lab build new ML models and improve existing ones.\n\n\n\n\nDatathon/Hackathon participation\n2021 - Present\nI’ve done a bunch of datathons and hackathons—UPC Datathon and Google Hash Code (twice). They’ve sharpened my problem-solving and teamwork, and I like doing them whenever I can.\n\n\nBECO, a tool to boost environmentally conscious decisions\nFebruary 2022 - June 2022\nBuilt a software solution for Naptilus Tech Lab that used user data to help people reduce their carbon footprint. We shipped “BECO”, an app that used ML to suggest more sustainable options (e.g. eco-friendly places).\n\n\n\n\nI’m strong in problem-solving and critical thinking, and I work well in teams. I pick up new things quickly and I’m comfortable with change. I care about doing good work, I manage my time well, and I stay organized. That’s how I get things done."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Miquel Sirera Perelló",
-    "section": "",
-    "text": "Hi, I’m Miquel. I’m doing a Ph.D. focused on Large Language Models (LLMs) and distributed AI—how we train and run these systems across many devices. I like working at the intersection of machine learning and distributed systems and I’m always open to collaboration. If any of this sounds interesting or you have questions, reach out on LinkedIn or at sirera.m@northeastern.edu.\n\n  \n    \n\n    \n  \n    \n     Instagram\n  \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Resume\n  \n  \n    \n     Google Scholar\n  \n  \n    \n     ORCID\n  \n  \n    \n     DBLP\n  \n  \n    \n     Semantic Scholar\n  \n\n  \n  \n\n\nUniversitat Politècnica de Catalunya | BSc on Data Science | 2019 - 2023\nNortheastern University | PhD on Computer Engineering | 2024 - Current\n\n\n\nAbi Global Health | AI Engineer intern | 2022\nNortheastern University | UG Research Assistant | 2023\nDownload My Resume - PDF"
-  },
-  {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "Miquel Sirera Perelló",
-    "section": "",
-    "text": "Hi, I’m Miquel. I’m doing a Ph.D. focused on Large Language Models (LLMs) and distributed AI—how we train and run these systems across many devices. I like working at the intersection of machine learning and distributed systems and I’m always open to collaboration. If any of this sounds interesting or you have questions, reach out on LinkedIn or at sirera.m@northeastern.edu.\n\n  \n    \n\n    \n  \n    \n     Instagram\n  \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Resume\n  \n  \n    \n     Google Scholar\n  \n  \n    \n     ORCID\n  \n  \n    \n     DBLP\n  \n  \n    \n     Semantic Scholar\n  \n\n  \n  \n\n\nUniversitat Politècnica de Catalunya | BSc on Data Science | 2019 - 2023\nNortheastern University | PhD on Computer Engineering | 2024 - Current\n\n\n\nAbi Global Health | AI Engineer intern | 2022\nNortheastern University | UG Research Assistant | 2023\nDownload My Resume - PDF"
-  },
-  {
-    "objectID": "index.html#current-projects",
-    "href": "index.html#current-projects",
-    "title": "Miquel Sirera Perelló",
-    "section": "Current projects",
-    "text": "Current projects\n\n\nBuilding Resilience on Distributed Large Language Models\n\nWe’re extending the JARVIS project—a distributed framework for LLMs that splits model layers across edge devices with limited compute. More in My Research.\nJARVIS adds resilience to node failures via peer-to-peer communication and layer redundancy, so the system keeps working when things go wrong. We tested it with Google’s Gemma (2B parameters) on 18 software-defined radios in the NSF Colosseum RF emulator and a 7-node Raspberry Pi testbed.\nRight now we’re looking at model changes that handle layer loss better, and at using redundancy in middle layers for faster recovery and more robust distributed runs.\n\n\nExtension of Communication-Aware DNN Pruning\n\nWe’re extending communication-aware DNN pruning: training networks for distributed deployment so they need less communication while staying accurate. We prune and place neurons in CNNs and MLPs so they run well on the edge under mixed network conditions.\n\nKnowledge Editing in Large Language Models\n\nWe’re looking at more efficient ways to edit knowledge in LLMs—updating or fixing specific facts and behaviors without full retraining, and without hurting overall performance."
-  },
-  {
-    "objectID": "cover_letter_fujitsu_summer26.html",
-    "href": "cover_letter_fujitsu_summer26.html",
-    "title": "Cover Letter — Research Intern, Summer 2026",
-    "section": "",
-    "text": "Miquel Sirera Perelló\nPhD Student, Computer Engineering, Northeastern University\nsirera.m@northeastern.edu | LinkedIn | Google Scholar\n\nI am writing to apply for the Research Intern position at Fujitsu Research of America for summer 2026. I am a US-based PhD student in Computer Engineering at Northeastern University, and I am very interested in contributing to your team’s work on HCI and AI/computer vision systems with a publication-oriented focus.\nMy research sits at the intersection of machine learning, AI systems, and practical deployment. I work on large language models and distributed AI—how we train and run these systems across devices—and on making them more resilient and efficient at the edge. I also have direct experience in computer vision and ML for perception: I am a co-author on “Neural Point Processes for Pixel-wise Regression” (AISTATS 2025), where we combined spatial models with neural networks for pixel-wise regression on sparsely annotated images. That work sharpened my interest in building ML/CV systems that are both methodologically sound and usable in real settings, which aligns well with HCI + AI/CV research aimed at publication.\nBeyond that, I have built and evaluated AI systems in wireless and distributed settings. I co-authored JARVIS (MILCOM 2024), a distributed LLM framework that runs across edge devices and handles failures via redundancy and peer-to-peer communication—work that involved system design, experimentation, and writing for a top venue. I have also contributed to communication-aware DNN pruning and to projects on knowledge editing in LLMs, and I have industry experience as an AI Engineer intern (ML models and MLOps). I am comfortable moving between theory, implementation, and writing papers, and I am motivated to do research that leads to strong, publishable results.\nI would be glad to bring this background to your team’s HCI + AI/CV efforts for summer 2026, to collaborate on concrete research problems, and to work toward a publication. Thank you for considering my application; I look forward to the possibility of discussing how I can contribute to Fujitsu Research of America.\nBest regards,\nMiquel Sirera Perelló"
-  },
-  {
-    "objectID": "cover_letter_fujitsu_summer26.html#fujitsu-research-of-america",
-    "href": "cover_letter_fujitsu_summer26.html#fujitsu-research-of-america",
-    "title": "Cover Letter — Research Intern, Summer 2026",
-    "section": "",
-    "text": "Miquel Sirera Perelló\nPhD Student, Computer Engineering, Northeastern University\nsirera.m@northeastern.edu | LinkedIn | Google Scholar\n\nI am writing to apply for the Research Intern position at Fujitsu Research of America for summer 2026. I am a US-based PhD student in Computer Engineering at Northeastern University, and I am very interested in contributing to your team’s work on HCI and AI/computer vision systems with a publication-oriented focus.\nMy research sits at the intersection of machine learning, AI systems, and practical deployment. I work on large language models and distributed AI—how we train and run these systems across devices—and on making them more resilient and efficient at the edge. I also have direct experience in computer vision and ML for perception: I am a co-author on “Neural Point Processes for Pixel-wise Regression” (AISTATS 2025), where we combined spatial models with neural networks for pixel-wise regression on sparsely annotated images. That work sharpened my interest in building ML/CV systems that are both methodologically sound and usable in real settings, which aligns well with HCI + AI/CV research aimed at publication.\nBeyond that, I have built and evaluated AI systems in wireless and distributed settings. I co-authored JARVIS (MILCOM 2024), a distributed LLM framework that runs across edge devices and handles failures via redundancy and peer-to-peer communication—work that involved system design, experimentation, and writing for a top venue. I have also contributed to communication-aware DNN pruning and to projects on knowledge editing in LLMs, and I have industry experience as an AI Engineer intern (ML models and MLOps). I am comfortable moving between theory, implementation, and writing papers, and I am motivated to do research that leads to strong, publishable results.\nI would be glad to bring this background to your team’s HCI + AI/CV efforts for summer 2026, to collaborate on concrete research problems, and to work toward a publication. Thank you for considering my application; I look forward to the possibility of discussing how I can contribute to Fujitsu Research of America.\nBest regards,\nMiquel Sirera Perelló"
+    "text": "CV & background\n\nAcademic CV Industry CV\n\nProfileEducationExperienceSide projectsSkills\n\n\nI have a BSc in Data Science and Engineering from Universitat Politècnica de Catalunya, with a solid foundation in CS, math, statistics, and signal processing. I’m now doing a Ph.D. in Computer Engineering at Northeastern, focused on research that pushes things forward — especially in ML, distributed systems, and large language models. I like getting things shipped and aim for work that has real impact.\n\nMachine Learning Large Language Models Distributed Systems Edge AI Wireless + AI PyTorch CUDA Python Linux MLOps\n\n\n\n\n\nJan 2024 — Present\n\nPhD in Computer Engineering\nNortheastern University · Boston\nAt the intersection of ML, LLMs, distributed training and inference, and edge AI. Interested in making models more resilient and robust, in running AI efficiently on edge and cloud, and in how AI can improve telecom — network performance and automation. Especially curious about LLMs: attention, knowledge representation, and editing. Goal: build systems that are efficient, scalable, and reliable.\n\n\n\nSep 2019 — Jul 2023\n\nBSc in Data Science & Engineering\nUniversitat Politècnica de Catalunya · Barcelona\nGraduated with GPA 8.89/10. Honors in four courses: Discrete Mathematics & Logic, Mathematical Optimization, Search and Analysis of Information, and Advanced Topics of Data Science.\n\n\n\nSep 2017 — Jun 2019\n\nHigh School\nLa Salle Bonanova · Barcelona\nGraduated with honors. Scored 13.556/14 on the PAU university entrance exams and earned the PAU distinction. Math contests (Pangea, “Fem Matemàtiques”) and extra math enrichment.\n\n\n\n\n\n\n\nFeb 2023 — Jul 2023\n\nBSc Thesis · Genesys Lab\nNortheastern University · Institute for the Wireless Internet of Things\nWorked with a research team on AI for wireless communications. Designed and implemented AI-based approaches for signal classification. This work got me into AI + wireless and I’ve been here since.\n\n\n\nMar 2022 — Dec 2022\n\nAI Engineer Intern\nAbi Global Health\nInternship at a global tele-health company. Improved monitoring in their MLOps setup and helped the AI Lab build new ML models and improve existing ones.\n\n\n\n\n\n\n\n2021 — Present\n\nDatathons & hackathons\nVarious\nDone a bunch of datathons and hackathons — UPC Datathon and Google Hash Code (twice among others). Sharp problem-solving practice and good teamwork reps.\n\n\n\nFeb 2022 — Jun 2022\n\nBECO · environmentally-conscious decisions\nNaptilus Tech Lab\nBuilt a software product that used user data to help people reduce their carbon footprint. Shipped “BECO” — an app that used ML to suggest more sustainable options (e.g. eco-friendly places).\n\n\n\n\n\nI’m strong in problem-solving and critical thinking, and I work well in teams. I pick up new things quickly and I’m comfortable with change. I care about doing good work, I manage my time well, and I stay organized. That’s how I get things done.\nTechnical\n\nPython PyTorch CUDA C/C++ Git Linux Docker SLURM MLOps LaTeX\n\nLanguages\n\nCatalan — Native Spanish — Native English — Fluent\n\n\n\n\n\n\n\n Back to top"
   }
 ]

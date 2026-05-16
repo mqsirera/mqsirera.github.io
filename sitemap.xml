@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://mqsirera.github.io/personalWebsite/index.html</loc>
+    <lastmod>2026-05-16T20:55:38.895Z</lastmod>
+  </url>
+  <url>
     <loc>https://mqsirera.github.io/personalWebsite/research.html</loc>
-    <lastmod>2026-02-27T15:01:08.119Z</lastmod>
+    <lastmod>2026-05-16T20:55:39.213Z</lastmod>
   </url>
   <url>
     <loc>https://mqsirera.github.io/personalWebsite/resume.html</loc>
-    <lastmod>2026-02-27T15:01:08.463Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mqsirera.github.io/personalWebsite/index.html</loc>
-    <lastmod>2026-02-27T15:01:08.748Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mqsirera.github.io/personalWebsite/cover_letter_fujitsu_summer26.html</loc>
-    <lastmod>2026-02-27T15:01:09.054Z</lastmod>
+    <lastmod>2026-05-16T20:55:39.557Z</lastmod>
   </url>
 </urlset>

@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="PhD student at Northeastern · LLMs, distributed systems, edge AI.">
 
 <title>Miquel Sirera Perelló</title>
 <style>
@@ -24,7 +25,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -34,11 +34,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -58,9 +61,21 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<meta property="og:title" content="Miquel Sirera Perelló">
+<meta property="og:description" content="">
+<meta property="og:image" content="files/headshot_new.jpg">
 
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Miquel Sirera Perelló">
+<meta property="og:description" content="I work at the intersection of machine learning and distributed systems — building large language models that can train and run across many devices, gracefully handle failure, and stay efficient at…">
+<meta property="og:image" content="https://mqsirera.github.io/personalWebsite/files/headshot_new.jpg">
+<meta property="og:site-name" content="Miquel Sirera">
+<meta name="twitter:title" content="Miquel Sirera Perelló">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://mqsirera.github.io/personalWebsite/files/headshot_new.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -69,6 +84,11 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Miquel Sirera</span>
+    </a>
+  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -77,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
- <span class="menu-text">About me</span></a>
+ <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./research.html" rel="" target="">
@@ -90,17 +110,23 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/mqsirera" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
     <a class="nav-link" href="https://www.linkedin.com/in/mqsirera/" rel="" target=""><i class="bi bi-linkedin" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/mqsirera" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="mailto:sirera.m@northeastern.edu" rel="" target=""><i class="bi bi-envelope" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -114,114 +140,157 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
-  <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a></li>
-  <li><a href="#current-projects" id="toc-current-projects" class="nav-link" data-scroll-target="#current-projects">Current projects</a></li>
+  <ul class="collapse">
+  <li><a href="#current-projects" id="toc-current-projects" class="nav-link active" data-scroll-target="#current-projects">Current projects</a></li>
+  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
+  <li><a href="#say-hi" id="toc-say-hi" class="nav-link" data-scroll-target="#say-hi">Say hi</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-<section id="welcome" class="level2">
-<h2 data-anchor-id="welcome">Welcome</h2>
-<p><em>Hi, I’m Miquel. I’m doing a Ph.D.&nbsp;focused on Large Language Models (LLMs) and distributed AI—how we train and run these systems across many devices. I like working at the intersection of machine learning and distributed systems and I’m always open to collaboration. If any of this sounds interesting or you have questions, reach out on LinkedIn or at <strong>sirera.m@northeastern.edu</strong>.</em></p>
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="files/headshot.jpg" class="about-image
-  rounded " style="width: 20em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Miquel Sirera Perelló</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header>
-    <div class="about-links">
-  <a href="https://www.instagram.com/mq.sirera/" class="about-link" rel="" target="">
-    <i class="bi bi-instagram"></i>
-     <span class="about-link-text">Instagram</span>
-  </a>
-  <a href="https://github.com/mqsirera" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="https://www.linkedin.com/in/mqsirera/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="/./files/MiquelSirera_AcademicCV_Sep2025.pdf" class="about-link" rel="" target="">
-    <i class="bi bi-filetype-pdf"></i>
-     <span class="about-link-text">Resume</span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=DF9KcekAAAAJ" class="about-link" rel="" target="">
-    <i class="bi bi-fa-link"></i>
-     <span class="about-link-text">Google Scholar</span>
-  </a>
-  <a href="https://orcid.org/0009-0005-8840-6746" class="about-link" rel="" target="">
-    <i class="bi bi-fa-link"></i>
-     <span class="about-link-text">ORCID</span>
-  </a>
-  <a href="https://dblp.org/pid/366/4777.html" class="about-link" rel="" target="">
-    <i class="bi bi-fa-link"></i>
-     <span class="about-link-text">DBLP</span>
-  </a>
-  <a href="https://www.semanticscholar.org/author/Miquel-Sirera/2278836383" class="about-link" rel="" target="">
-    <i class="bi bi-fa-link"></i>
-     <span class="about-link-text">Semantic Scholar</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><div id="about-section">
-<section id="education" class="level3">
-<h3 data-anchor-id="education">Education</h3>
-<p>Universitat Politècnica de Catalunya | <em>BSc on Data Science</em> | 2019 - 2023</p>
-<p>Northeastern University | <em>PhD on Computer Engineering</em> | 2024 - Current</p>
-</section>
-<section id="experience" class="level3">
-<h3 data-anchor-id="experience">Experience</h3>
-<p>Abi Global Health | <em>AI Engineer intern</em> | 2022</p>
-<p>Northeastern University | <em>UG Research Assistant</em> | 2023</p>
-<p><a href="./files/MiquelSirera_AcademicCV_Sep2025.pdf" class="btn btn-primary">Download My Resume - PDF</a></p>
-</section>
-</div></div>
+<h1 class="title">Miquel Sirera</h1>
 </div>
 
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section class="hero">
+  <div class="hero-photo">
+    <img src="files/headshot_new.jpg" alt="Miquel Sirera">
+  </div>
+  <div class="hero-body">
+    <h1 class="hero-name">Miquel<br>Sirera&nbsp;Perelló</h1>
+    <p class="hero-tagline">
+      PhD student at <strong>Northeastern</strong> building
+      <strong>distributed LLMs</strong> that survive node failures,
+      run on the edge, and stay accurate under real‑world constraints.
+    </p>
+    <div class="hero-links">
+      <a href="https://www.linkedin.com/in/mqsirera/" class="hero-link" target="_blank" rel="noopener">
+        <i class="bi bi-linkedin"></i><span>LinkedIn</span>
+      </a>
+      <a href="https://github.com/mqsirera" class="hero-link" target="_blank" rel="noopener">
+        <i class="bi bi-github"></i><span>GitHub</span>
+      </a>
+      <a href="mailto:sirera.m@northeastern.edu" class="hero-link">
+        <i class="bi bi-envelope"></i><span>Email</span>
+      </a>
+      <a href="./files/MiquelSirera_AcademicCV_Sep2025.pdf" class="hero-link" target="_blank" rel="noopener">
+        <i class="bi bi-filetype-pdf"></i><span>CV</span>
+      </a>
+      <a href="https://scholar.google.com/citations?user=DF9KcekAAAAJ" class="hero-link" target="_blank" rel="noopener">
+        <i class="bi bi-mortarboard"></i><span>Scholar</span>
+      </a>
+      <a href="https://www.instagram.com/mq.sirera/" class="hero-link" target="_blank" rel="noopener">
+        <i class="bi bi-instagram"></i><span>Instagram</span>
+      </a>
+    </div>
+  </div>
+</section>
+<div class="intro-eyebrow">
+<p><span class="dot"></span> Open to collaboration · Boston, MA</p>
+</div>
+<section id="hi-im-miquel" class="level2 unlisted">
+<h2 class="unlisted anchored" data-anchor-id="hi-im-miquel">Hi, I’m Miquel</h2>
+<p>I work at the intersection of <strong>machine learning</strong> and <strong>distributed systems</strong> — building large language models that can train and run across many devices, gracefully handle failure, and stay efficient at the edge.</p>
+<p>Before Boston, I studied Data Science at UPC in Barcelona. I like research that ships, collaborators who push my thinking, and problems that don’t have a clean answer yet. If any of what’s below sounds interesting, <a href="mailto:sirera.m@northeastern.edu">reach out</a> — I’m always up for a conversation.</p>
+<div class="chips">
+<p><span class="chip is-primary">Distributed LLMs</span> <span class="chip">Resilient Inference</span> <span class="chip">Edge AI</span> <span class="chip">Knowledge Editing</span> <span class="chip">Wireless + ML</span> <span class="chip">PyTorch</span> <span class="chip">CUDA</span> <span class="chip">Python</span></p>
+</div>
+<div class="section-eyebrow">
+<p>What I’m working on</p>
+</div>
 </section>
 <section id="current-projects" class="level2">
-<h2 data-anchor-id="current-projects">Current projects</h2>
-<!-- - **Survey on LLMs for 6G**
-
-Our project aims to conduct a comprehensive survey on the utilization of Language Models (LLMs) in the context of 6G technology. We will investigate how LLMs are shaping the landscape of 6G development, exploring their applications, benefits, and potential challenges. By gathering valuable insights from industry experts and researchers, we seek to gain a deeper understanding of how LLMs are influencing the future of 6G.
-
-- **Practical use for LLMs in telecomms**
-
-Our project is centered around the fine-tuning of a Language Model (LLM) to act as a seamless bridge between network configurations and operators, all through natural language interactions. We're dedicated to creating an intuitive and efficient interface that allows operators to communicate with network configurations effortlessly. By harnessing the power of LLMs, we aim to streamline network management and enhance operational efficiency, ultimately revolutionizing the way operators interact with and manage complex networks. -->
-<ul>
-<li><strong>Building Resilience on Distributed Large Language Models</strong></li>
-</ul>
-<p>We’re extending the <strong>JARVIS project</strong>—a distributed framework for LLMs that splits model layers across edge devices with limited compute. More in <a href="./research">My Research</a>.</p>
-<p>JARVIS adds resilience to node failures via peer-to-peer communication and layer redundancy, so the system keeps working when things go wrong. We tested it with Google’s Gemma (2B parameters) on 18 software-defined radios in the NSF Colosseum RF emulator and a 7-node Raspberry Pi testbed.</p>
-<p>Right now we’re looking at model changes that handle layer loss better, and at using redundancy in middle layers for faster recovery and more robust distributed runs.</p>
-<!-- - **Neural Point Processes for Pixel-wise Regression**
-
-In this project we address the challenge of pixel-wise regression problems with sparsely annotated images. Traditional methods struggle with unlabeled areas, leading to distorted predictions. We introduce Neural Point Processes, combining 2D Gaussian Processes with neural networks to leverage spatial correlations between sparse labels. Our method significantly improves mean-squared error and $R^{2}$ scores, outperforming standard regression techniques across both real-world and synthetic datasets. -->
-<ul>
-<li><strong>Extension of Communication-Aware DNN Pruning</strong></li>
-</ul>
-<p>We’re extending <a href="https://ece.northeastern.edu/fac-ece/ioannidis/static/pdf/2023/C_Jian_CommAwarePrune_Infocom2023.pdf">communication-aware DNN pruning</a>: training networks for distributed deployment so they need less communication while staying accurate. We prune and place neurons in CNNs and MLPs so they run well on the edge under mixed network conditions.</p>
-<ul>
-<li><strong>Knowledge Editing in Large Language Models</strong></li>
-</ul>
-<p>We’re looking at more efficient ways to edit knowledge in LLMs—updating or fixing specific facts and behaviors without full retraining, and without hurting overall performance.</p>
-
+<h2 class="anchored" data-anchor-id="current-projects">Current projects</h2>
+<div class="project-grid">
+<div class="project-card">
+<p><span class="card-tag">Flagship</span></p>
+<section id="resilience-for-distributed-llms" class="level3">
+<h3 class="anchored" data-anchor-id="resilience-for-distributed-llms">Resilience for Distributed LLMs</h3>
+<p>Extending <strong>JARVIS</strong> — a framework that splits LLM layers across edge devices with limited compute. We add peer-to-peer recovery and layer redundancy so the system keeps serving when nodes fail. Tested on Gemma-2B across 18 software-defined radios in the NSF Colosseum emulator and a 7-node Raspberry Pi cluster. More in <a href="./research.html">Research</a>.</p>
+</section>
+</div>
+<div class="project-card">
+<p><span class="card-tag">Networking + ML</span></p>
+<section id="communication-aware-dnn-pruning" class="level3">
+<h3 class="anchored" data-anchor-id="communication-aware-dnn-pruning">Communication-aware DNN pruning</h3>
+<p>Training networks for distributed deployment so they need less inter-device communication while staying accurate. Pruning and placing neurons in CNNs and MLPs so they run well on the edge under mixed network conditions. Builds on <a href="https://ece.northeastern.edu/fac-ece/ioannidis/static/pdf/2023/C_Jian_CommAwarePrune_Infocom2023.pdf">prior work from our group</a>.</p>
+</section>
+</div>
+<div class="project-card">
+<p><span class="card-tag">LLMs</span></p>
+<section id="knowledge-editing-in-llms" class="level3">
+<h3 class="anchored" data-anchor-id="knowledge-editing-in-llms">Knowledge editing in LLMs</h3>
+<p>Looking at more efficient ways to update or correct specific facts and behaviors inside large language models — without full retraining, and without breaking everything else the model knows.</p>
+</section>
+</div>
+</div>
+<div class="section-eyebrow">
+<p>A bit more</p>
+</div>
+</section>
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<div class="timeline">
+<div class="timeline-item">
+<p><span class="ti-date">2024 — Present</span></p>
+<section id="phd-computer-engineering" class="level4 ti-title unlisted">
+<h4 class="ti-title unlisted anchored" data-anchor-id="phd-computer-engineering">PhD, Computer Engineering</h4>
+<p><span class="ti-place">Northeastern University · Boston</span></p>
+<p><span class="ti-body">Distributed LLMs, edge AI, and resilient inference. Advised in the Genesys lab.</span></p>
+</section>
+</div>
+<div class="timeline-item">
+<p><span class="ti-date">2023</span></p>
+<section id="undergraduate-research-assistant" class="level4 ti-title unlisted">
+<h4 class="ti-title unlisted anchored" data-anchor-id="undergraduate-research-assistant">Undergraduate Research Assistant</h4>
+<p><span class="ti-place">Genesys Lab, Northeastern · Boston</span></p>
+<p><span class="ti-body">Bachelor’s thesis on AI for wireless — signal classification with deep models. Hooked me on AI + wireless and started my path here.</span></p>
+</section>
+</div>
+<div class="timeline-item">
+<p><span class="ti-date">2022</span></p>
+<section id="ai-engineer-intern" class="level4 ti-title unlisted">
+<h4 class="ti-title unlisted anchored" data-anchor-id="ai-engineer-intern">AI Engineer Intern</h4>
+<p><span class="ti-place">Abi Global Health · Remote</span></p>
+<p><span class="ti-body">MLOps monitoring and ML model work for a global tele-health platform.</span></p>
+</section>
+</div>
+<div class="timeline-item">
+<p><span class="ti-date">2019 — 2023</span></p>
+<section id="bsc-data-science-engineering" class="level4 ti-title unlisted">
+<h4 class="ti-title unlisted anchored" data-anchor-id="bsc-data-science-engineering">BSc, Data Science &amp; Engineering</h4>
+<p><span class="ti-place">Universitat Politècnica de Catalunya · Barcelona</span></p>
+<p><span class="ti-body">GPA 8.89/10. Honors in Discrete Math &amp; Logic, Mathematical Optimization, Search &amp; Analysis of Information, and Advanced Topics of Data Science.</span></p>
+</section>
+</div>
+</div>
+<div class="section-eyebrow">
+<p>Get in touch</p>
+</div>
+</section>
+<section id="say-hi" class="level2">
+<h2 class="anchored" data-anchor-id="say-hi">Say hi</h2>
+<p>Best way to reach me is <strong><a href="mailto:sirera.m@northeastern.edu">sirera.m@northeastern.edu</a></strong> or <a href="https://www.linkedin.com/in/mqsirera/">LinkedIn</a>. I read everything, even if my replies aren’t always fast.</p>
 
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -242,6 +311,128 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -446,10 +637,49 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/mqsirera\.github\.io\/personalWebsite\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">© 2026 Miquel Sirera Perelló</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/mqsirera">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/mqsirera/">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
