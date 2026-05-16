@@ -1,28 +1,58 @@
 project:
   type: website
+  render:
+    - "index.qmd"
+    - "research.qmd"
+    - "resume.qmd"
 
 website:
-  title: ""
+  title: "Miquel Sirera"
+  description: "PhD student at Northeastern · LLMs, distributed systems, edge AI."
   favicon: "./files/favicon.ico"
+  open-graph: true
+  twitter-card: true
+  page-navigation: false
+  back-to-top-navigation: true
+
   navbar:
+    pinned: true
     left:
       - href: index.qmd
-        text: About me
+        text: About
       - href: research.qmd
         text: Research
       - href: resume.qmd
         text: Resume
     right:
-      - icon: linkedin
-        href: https://www.linkedin.com/in/mqsirera/
       - icon: github
         href: https://github.com/mqsirera
+      - icon: linkedin
+        href: https://www.linkedin.com/in/mqsirera/
+      - icon: envelope
+        href: mailto:sirera.m@northeastern.edu
+
+  page-footer:
+    left: "© 2026 Miquel Sirera Perelló"
+    right:
+      - icon: github
+        href: https://github.com/mqsirera
+      - icon: linkedin
+        href: https://www.linkedin.com/in/mqsirera/
 
 format:
   html:
-    theme: pulse
+    theme:
+      light: cosmo
+      dark: darkly
     css: styles.css
     toc: true
-
-
-
+    toc-location: right
+    toc-depth: 2
+    smooth-scroll: true
+    anchor-sections: true
+    link-external-newwindow: true
+    link-external-icon: false
+    grid:
+      sidebar-width: 240px
+      body-width: 820px
+      margin-width: 240px

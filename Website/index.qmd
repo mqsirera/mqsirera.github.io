@@ -1,84 +1,164 @@
 ---
-title: "Miquel Sirera Perelló"
-image: files/headshot.jpg
-about:
-  id: about-section
-  template: trestles
-  links: 
-    - icon: instagram
-      text: Instagram
-      href: https://www.instagram.com/mq.sirera/
-    - icon: github
-      text: Github
-      href: https://github.com/mqsirera
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/mqsirera/
-    - icon: filetype-pdf
-      text: Resume
-      href: ./files/MiquelSirera_AcademicCV_Sep2025.pdf
-    - icon: fa-link
-      text: Google Scholar
-      href: https://scholar.google.com/citations?user=DF9KcekAAAAJ
-    - icon: fa-link
-      text: ORCID
-      href: https://orcid.org/0009-0005-8840-6746
-    - icon: fa-link
-      text: DBLP
-      href: https://dblp.org/pid/366/4777.html
-    - icon: fa-link
-      text: Semantic Scholar
-      href: https://www.semanticscholar.org/author/Miquel-Sirera/2278836383
+title: "Miquel Sirera"
+pagetitle: "Miquel Sirera Perelló"
+description-meta: "PhD student at Northeastern · LLMs, distributed systems, edge AI."
+toc: true
+toc-location: right
+page-layout: article
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta property="og:title" content="Miquel Sirera Perelló">
+        <meta property="og:description" content="PhD student at Northeastern building distributed LLMs that survive node failures, run on the edge, and stay accurate.">
+        <meta property="og:image" content="files/headshot_new.jpg">
 ---
 
+```{=html}
+<section class="hero">
+  <div class="hero-photo">
+    <img src="files/headshot_new.jpg" alt="Miquel Sirera">
+  </div>
+  <div class="hero-body">
+    <h1 class="hero-name">Miquel<br>Sirera&nbsp;Perelló</h1>
+    <p class="hero-tagline">
+      PhD student at <strong>Northeastern</strong> building
+      <strong>distributed LLMs</strong> that survive node failures,
+      run on the edge, and stay accurate under real‑world constraints.
+    </p>
+    <div class="hero-links">
+      <a href="https://www.linkedin.com/in/mqsirera/" class="hero-link" target="_blank" rel="noopener">
+        <i class="bi bi-linkedin"></i><span>LinkedIn</span>
+      </a>
+      <a href="https://github.com/mqsirera" class="hero-link" target="_blank" rel="noopener">
+        <i class="bi bi-github"></i><span>GitHub</span>
+      </a>
+      <a href="mailto:sirera.m@northeastern.edu" class="hero-link">
+        <i class="bi bi-envelope"></i><span>Email</span>
+      </a>
+      <a href="./files/MiquelSirera_AcademicCV_Sep2025.pdf" class="hero-link" target="_blank" rel="noopener">
+        <i class="bi bi-filetype-pdf"></i><span>CV</span>
+      </a>
+      <a href="https://scholar.google.com/citations?user=DF9KcekAAAAJ" class="hero-link" target="_blank" rel="noopener">
+        <i class="bi bi-mortarboard"></i><span>Scholar</span>
+      </a>
+      <a href="https://www.instagram.com/mq.sirera/" class="hero-link" target="_blank" rel="noopener">
+        <i class="bi bi-instagram"></i><span>Instagram</span>
+      </a>
+    </div>
+  </div>
+</section>
+```
 
-## Welcome
-*Hi, I'm Miquel. I'm doing a Ph.D. focused on Large Language Models (LLMs) and distributed AI—how we train and run these systems across many devices. I like working at the intersection of machine learning and distributed systems and I'm always open to collaboration. If any of this sounds interesting or you have questions, reach out on LinkedIn or at **sirera.m@northeastern.edu**.*
+::: {.intro-eyebrow}
+[]{.dot} Open to collaboration · Boston, MA
+:::
 
-::: {#about-section}
+## Hi, I'm Miquel  {.unlisted}
 
-### Education
+I work at the intersection of **machine learning** and **distributed systems** — building large language models that can train and run across many devices, gracefully handle failure, and stay efficient at the edge.
 
-Universitat Politècnica de Catalunya \| *BSc on Data Science* \| 2019 - 2023
+Before Boston, I studied Data Science at UPC in Barcelona. I like research that ships, collaborators who push my thinking, and problems that don't have a clean answer yet. If any of what's below sounds interesting, [reach out](mailto:sirera.m@northeastern.edu) — I'm always up for a conversation.
 
-Northeastern University \| *PhD on Computer Engineering* \| 2024 - Current
+::: {.chips}
+[Distributed LLMs]{.chip .is-primary}
+[Resilient Inference]{.chip}
+[Edge AI]{.chip}
+[Knowledge Editing]{.chip}
+[Wireless + ML]{.chip}
+[PyTorch]{.chip}
+[CUDA]{.chip}
+[Python]{.chip}
+:::
 
-### Experience
-
-Abi Global Health \| *AI Engineer intern* \| 2022
-
-Northeastern University \| *UG Research Assistant* \| 2023
-
-
-[Download My Resume - PDF](./files/MiquelSirera_AcademicCV_Sep2025.pdf){.btn .btn-primary}
-
+::: {.section-eyebrow}
+What I'm working on
 :::
 
 ## Current projects
-<!-- - **Survey on LLMs for 6G**
 
-Our project aims to conduct a comprehensive survey on the utilization of Language Models (LLMs) in the context of 6G technology. We will investigate how LLMs are shaping the landscape of 6G development, exploring their applications, benefits, and potential challenges. By gathering valuable insights from industry experts and researchers, we seek to gain a deeper understanding of how LLMs are influencing the future of 6G.
+::: {.project-grid}
 
-- **Practical use for LLMs in telecomms**
+::: {.project-card}
+[Flagship]{.card-tag}
 
-Our project is centered around the fine-tuning of a Language Model (LLM) to act as a seamless bridge between network configurations and operators, all through natural language interactions. We're dedicated to creating an intuitive and efficient interface that allows operators to communicate with network configurations effortlessly. By harnessing the power of LLMs, we aim to streamline network management and enhance operational efficiency, ultimately revolutionizing the way operators interact with and manage complex networks. -->
+### Resilience for Distributed LLMs
 
-- **Building Resilience on Distributed Large Language Models**
+Extending **JARVIS** — a framework that splits LLM layers across edge devices with limited compute. We add peer-to-peer recovery and layer redundancy so the system keeps serving when nodes fail. Tested on Gemma-2B across 18 software-defined radios in the NSF Colosseum emulator and a 7-node Raspberry Pi cluster. More in [Research](./research.qmd).
+:::
 
-We're extending the **JARVIS project**—a distributed framework for LLMs that splits model layers across edge devices with limited compute. More in [My Research](/research).
+::: {.project-card}
+[Networking + ML]{.card-tag}
 
-JARVIS adds resilience to node failures via peer-to-peer communication and layer redundancy, so the system keeps working when things go wrong. We tested it with Google's Gemma (2B parameters) on 18 software-defined radios in the NSF Colosseum RF emulator and a 7-node Raspberry Pi testbed.
+### Communication-aware DNN pruning
 
-Right now we're looking at model changes that handle layer loss better, and at using redundancy in middle layers for faster recovery and more robust distributed runs.
+Training networks for distributed deployment so they need less inter-device communication while staying accurate. Pruning and placing neurons in CNNs and MLPs so they run well on the edge under mixed network conditions. Builds on [prior work from our group](https://ece.northeastern.edu/fac-ece/ioannidis/static/pdf/2023/C_Jian_CommAwarePrune_Infocom2023.pdf).
+:::
 
-<!-- - **Neural Point Processes for Pixel-wise Regression**
+::: {.project-card}
+[LLMs]{.card-tag}
 
-In this project we address the challenge of pixel-wise regression problems with sparsely annotated images. Traditional methods struggle with unlabeled areas, leading to distorted predictions. We introduce Neural Point Processes, combining 2D Gaussian Processes with neural networks to leverage spatial correlations between sparse labels. Our method significantly improves mean-squared error and $R^{2}$ scores, outperforming standard regression techniques across both real-world and synthetic datasets. -->
+### Knowledge editing in LLMs
 
-- **Extension of Communication-Aware DNN Pruning**
+Looking at more efficient ways to update or correct specific facts and behaviors inside large language models — without full retraining, and without breaking everything else the model knows.
+:::
 
-We're extending [communication-aware DNN pruning](https://ece.northeastern.edu/fac-ece/ioannidis/static/pdf/2023/C_Jian_CommAwarePrune_Infocom2023.pdf): training networks for distributed deployment so they need less communication while staying accurate. We prune and place neurons in CNNs and MLPs so they run well on the edge under mixed network conditions.
+:::
 
-- **Knowledge Editing in Large Language Models**
+::: {.section-eyebrow}
+A bit more
+:::
 
-We're looking at more efficient ways to edit knowledge in LLMs—updating or fixing specific facts and behaviors without full retraining, and without hurting overall performance.
+## Background
+
+::: {.timeline}
+
+::: {.timeline-item}
+[2024 — Present]{.ti-date}
+
+#### PhD, Computer Engineering  {.ti-title .unlisted}
+
+[Northeastern University · Boston]{.ti-place}
+
+[Distributed LLMs, edge AI, and resilient inference. Advised in the Genesys lab.]{.ti-body}
+:::
+
+::: {.timeline-item}
+[2023]{.ti-date}
+
+#### Undergraduate Research Assistant  {.ti-title .unlisted}
+
+[Genesys Lab, Northeastern · Boston]{.ti-place}
+
+[Bachelor's thesis on AI for wireless — signal classification with deep models. Hooked me on AI + wireless and started my path here.]{.ti-body}
+:::
+
+::: {.timeline-item}
+[2022]{.ti-date}
+
+#### AI Engineer Intern  {.ti-title .unlisted}
+
+[Abi Global Health · Remote]{.ti-place}
+
+[MLOps monitoring and ML model work for a global tele-health platform.]{.ti-body}
+:::
+
+::: {.timeline-item}
+[2019 — 2023]{.ti-date}
+
+#### BSc, Data Science & Engineering  {.ti-title .unlisted}
+
+[Universitat Politècnica de Catalunya · Barcelona]{.ti-place}
+
+[GPA 8.89/10. Honors in Discrete Math & Logic, Mathematical Optimization, Search & Analysis of Information, and Advanced Topics of Data Science.]{.ti-body}
+:::
+
+:::
+
+::: {.section-eyebrow}
+Get in touch
+:::
+
+## Say hi
+
+Best way to reach me is **[sirera.m@northeastern.edu](mailto:sirera.m@northeastern.edu)** or [LinkedIn](https://www.linkedin.com/in/mqsirera/). I read everything, even if my replies aren't always fast.

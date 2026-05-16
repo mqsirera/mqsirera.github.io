@@ -1,69 +1,148 @@
 ---
-title: Resume
+title: "Resume"
 layout: page
+toc: false
 ---
 
+::: {.intro-eyebrow}
+[]{.dot} CV & background
+:::
 
-[Download My Academic CV - PDF](./files/MiquelSirera_AcademicCV_Sep2025.pdf "Miquel Sirera's Academic CV"){.btn .btn-primary}
-[Download My Regular CV - PDF](./files/MiquelSireraPerelloPhDNEU_Sep2025.pdf "Miquel Sirera's CV"){.btn .btn-primary}
+[ Academic CV](./files/MiquelSirera_AcademicCV_Sep2025.pdf){.btn .btn-primary}
+[ Industry CV](./files/MiquelSireraPerelloPhDNEU_Sep2025.pdf){.btn .btn-primary}
 
-::: panel-tabset
+::: {.panel-tabset}
+
 # Profile
 
-::: {style="text-align:justify"}
-I have a BSc in Data Science and Engineering from Universitat Politècnica de Catalunya, with a solid base in CS, math, statistics, and signal processing. I'm now doing a Ph.D. in Computer Engineering and I'm into research that actually moves things forward—especially in ML and AI. I like to get things done and I'm looking to have a real impact in the field.
+I have a BSc in Data Science and Engineering from Universitat Politècnica de Catalunya, with a solid foundation in CS, math, statistics, and signal processing. I'm now doing a Ph.D. in Computer Engineering at Northeastern, focused on research that pushes things forward — especially in ML, distributed systems, and large language models. I like getting things shipped and aim for work that has real impact.
+
+::: {.chips}
+[Machine Learning]{.chip .is-primary}
+[Large Language Models]{.chip}
+[Distributed Systems]{.chip}
+[Edge AI]{.chip}
+[Wireless + AI]{.chip}
+[PyTorch]{.chip}
+[CUDA]{.chip}
+[Python]{.chip}
+[Linux]{.chip}
+[MLOps]{.chip}
 :::
 
-# Education {style="text-align:justify"}
+# Education
 
-### PhD in Computer Engineering, Northeastern University, Boston {style="text-align:justify"}
+::: {.timeline}
 
-*January 2024 - Present*
+::: {.timeline-item}
+[Jan 2024 — Present]{.ti-date}
 
-My work is at the intersection of ML, LLMs, distributed training and inference, and edge AI. I care about making models more resilient and robust, and about how we can run AI efficiently on edge and cloud. I also look at how AI can improve telecom—network performance, automation. I'm especially interested in LLMs: attention, knowledge representation, and editing. I want to build systems that are efficient, scalable, and reliable.
+#### PhD in Computer Engineering  {.ti-title .no-toc}
 
-### BSc degree in Data Science and Engineering, Universitat Politècnica de Catalunya, Barcelona {style="text-align:justify"}
+[Northeastern University · Boston]{.ti-place}
 
-*September 2019 - July 2023*
+[At the intersection of ML, LLMs, distributed training and inference, and edge AI. Interested in making models more resilient and robust, in running AI efficiently on edge and cloud, and in how AI can improve telecom — network performance and automation. Especially curious about LLMs: attention, knowledge representation, and editing. Goal: build systems that are efficient, scalable, and reliable.]{.ti-body}
+:::
 
-Graduated with a GPA of 8.89/10. Got honors in four courses: Discrete Mathematics and Logic, Mathematical Optimization, Search and Analysis of Information, and Advanced Topics of Data Science.
+::: {.timeline-item}
+[Sep 2019 — Jul 2023]{.ti-date}
 
-### High School, La Salle Bonanova, Barcelona {style="text-align:justify"}
+#### BSc in Data Science & Engineering  {.ti-title .no-toc}
 
-*September 2017 - June 2019*
+[Universitat Politècnica de Catalunya · Barcelona]{.ti-place}
 
-Graduated with honors; scored 13.556/14 on the university entrance exams (PAU) and got the PAU distinction. Took part in math contests (Pangea, "Fem Matemàtiques") and did extra math enrichment classes.
+[Graduated with GPA 8.89/10. Honors in four courses: Discrete Mathematics & Logic, Mathematical Optimization, Search and Analysis of Information, and Advanced Topics of Data Science.]{.ti-body}
+:::
 
-# Experience {style="text-align:justify"}
+::: {.timeline-item}
+[Sep 2017 — Jun 2019]{.ti-date}
 
-### Genesys Lab at Northeastern University, BSc thesis development {style="text-align:justify"}
+#### High School  {.ti-title .no-toc}
 
-*February 2023 - July 2023*
+[La Salle Bonanova · Barcelona]{.ti-place}
 
-I worked with a research team at the Institute for the Wireless Internet of Things on AI for wireless communications. I designed and implemented AI-based approaches for signal classification. That work got me interested on AI + wireless and I've been in that space since.
+[Graduated with honors. Scored 13.556/14 on the PAU university entrance exams and earned the PAU distinction. Math contests (Pangea, "Fem Matemàtiques") and extra math enrichment.]{.ti-body}
+:::
 
-### Abi Global Health, AI Engineer internship {style="text-align:justify"}
+:::
 
-*March 2022 - December 2022*
+# Experience
 
-Interned at a global tele-health company. I improved monitoring in their MLOps setup and helped the AI Lab build new ML models and improve existing ones.
+::: {.timeline}
 
-# Personal projects {style="text-align:justify"}
+::: {.timeline-item}
+[Feb 2023 — Jul 2023]{.ti-date}
 
-### Datathon/Hackathon participation {style="text-align:justify"}
+#### BSc Thesis · Genesys Lab  {.ti-title .no-toc}
 
-*2021 - Present*
+[Northeastern University · Institute for the Wireless Internet of Things]{.ti-place}
 
-I've done a bunch of datathons and hackathons—UPC Datathon and Google Hash Code (twice). They've sharpened my problem-solving and teamwork, and I like doing them whenever I can.
+[Worked with a research team on AI for wireless communications. Designed and implemented AI-based approaches for signal classification. This work got me into AI + wireless and I've been here since.]{.ti-body}
+:::
 
-### BECO, a tool to boost environmentally conscious decisions {style="text-align:justify"}
+::: {.timeline-item}
+[Mar 2022 — Dec 2022]{.ti-date}
 
-*February 2022 - June 2022*
+#### AI Engineer Intern  {.ti-title .no-toc}
 
-Built a software solution for Naptilus Tech Lab that used user data to help people reduce their carbon footprint. We shipped "BECO", an app that used ML to suggest more sustainable options (e.g. eco-friendly places).
+[Abi Global Health]{.ti-place}
 
-# Skills {style="text-align:justify"}
-::: {style="text-align:justify"}
+[Internship at a global tele-health company. Improved monitoring in their MLOps setup and helped the AI Lab build new ML models and improve existing ones.]{.ti-body}
+:::
+
+:::
+
+# Side projects
+
+::: {.timeline}
+
+::: {.timeline-item}
+[2021 — Present]{.ti-date}
+
+#### Datathons & hackathons  {.ti-title .no-toc}
+
+[Various]{.ti-place}
+
+[Done a bunch of datathons and hackathons — UPC Datathon and Google Hash Code (twice among others). Sharp problem-solving practice and good teamwork reps.]{.ti-body}
+:::
+
+::: {.timeline-item}
+[Feb 2022 — Jun 2022]{.ti-date}
+
+#### BECO · environmentally-conscious decisions  {.ti-title .no-toc}
+
+[Naptilus Tech Lab]{.ti-place}
+
+[Built a software product that used user data to help people reduce their carbon footprint. Shipped "BECO" — an app that used ML to suggest more sustainable options (e.g. eco-friendly places).]{.ti-body}
+:::
+
+:::
+
+# Skills
+
 I'm strong in problem-solving and critical thinking, and I work well in teams. I pick up new things quickly and I'm comfortable with change. I care about doing good work, I manage my time well, and I stay organized. That's how I get things done.
+
+**Technical**
+
+::: {.chips}
+[Python]{.chip}
+[PyTorch]{.chip}
+[CUDA]{.chip}
+[C/C++]{.chip}
+[Git]{.chip}
+[Linux]{.chip}
+[Docker]{.chip}
+[SLURM]{.chip}
+[MLOps]{.chip}
+[LaTeX]{.chip}
 :::
+
+**Languages**
+
+::: {.chips}
+[Catalan — Native]{.chip}
+[Spanish — Native]{.chip}
+[English — Fluent]{.chip}
+:::
+
 :::

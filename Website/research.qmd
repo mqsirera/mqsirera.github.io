@@ -1,26 +1,120 @@
 ---
-title: My Research
+title: "Research"
 layout: page
+toc: false
 ---
 
-Here are my research papers and where they're published. Most of my work is on AI for wireless and distributed systems. Take a look and get in touch if you want to talk about any of it.
+::: {.intro-eyebrow}
+[]{.dot} Publications & venues
+:::
 
-## Articles
+Most of my work sits at the intersection of **AI, distributed systems, and wireless**. Below is what's published, where, and what I'm presenting next. If anything sparks ideas, [reach out](mailto:sirera.m@northeastern.edu).
 
-| Title        | Authors             | Venue        | Download PDF |
-| ------------ | ------------------- | ------------ | ------------ |
-| Neural Point Processes for Pixel-wise Regression | Chengzhi Shi, Gözde Özcan, **Miquel Sirera Perelló**, Stratis Ioannidis | AISTATS 2025 | [Download](./research/NPP.pdf "Download paper") |
-| JARVIS: Disjoint Large Language Models on Radio VLANs for Intelligent Services | **Miquel Sirera Perelló**, Joshua Groen, Wan Liu, Stratis Ioannidis, Kaushik Chowdhury | IEEE MILCOM 2024 | [Download](./research/JARVIS.pdf "Download paper") |
-| T-PRIME: Transformer-based Protocol Identification for Machine-learning at the Edge | Mauro Belgiovine, Joshua Groen, **Miquel Sirera Perelló**, Chinenye Tassie, Sage Trudeau, Stratis Ioannidis, Kaushik Chowdhury | IEEE INFOCOM 2024 | [Download](./research/T-PRIME.pdf "Download paper") |
-| MEGATRON: Machine Learning in 5G with Analysis of Traffic in Open Radio Access Networks |	Mauro Belgiovine, Jerry Gu, Joshua Groen, **Miquel Sirera Perelló**, Utku Demir, Kaushik Chowdhury | ICNC 2024 | [Download](./research/MEGATRON.pdf "Download paper") |
-| Deep Learning for Wireless Communications | **Miquel Sirera Perelló**, Kaushik Chowdhury, Albert Cabellos-Aparicio | Bachelor Thesis 2023 | [Download](./research/TFG.pdf "Download paper") |
+::: {.section-eyebrow}
+Publications
+:::
 
-## Attended Conferences
+## Papers  {.no-toc}
 
-- **MILCOM 2024** — Washington DC *(presented)*  
-  [Download Poster](./research/Poster_JARVIS.pdf){.btn .btn-primary}
+::: {.paper-card}
+[AISTATS 2025]{.paper-venue}
 
-- **ICLR 2025** — Singapore *(attended)*
+[Neural Point Processes for Pixel-wise Regression]{.paper-title}
 
-- **AISTATS 2025** — Phuket *(presented)*  
-  [Download Poster](./research/Poster_NPP.pdf){.btn .btn-primary}
+[Chengzhi Shi, Gözde Özcan, **Miquel Sirera Perelló**, Stratis Ioannidis]{.paper-authors}
+
+::: {.paper-actions}
+[ PDF](./research/NPP.pdf){.paper-link}
+:::
+:::
+
+::: {.paper-card}
+[IEEE MILCOM 2024]{.paper-venue}
+
+[JARVIS: Disjoint Large Language Models on Radio VLANs for Intelligent Services]{.paper-title}
+
+[**Miquel Sirera Perelló**, Joshua Groen, Wan Liu, Stratis Ioannidis, Kaushik Chowdhury]{.paper-authors}
+
+::: {.paper-actions}
+[ PDF](./research/JARVIS.pdf){.paper-link}
+[ Poster](./research/Poster_JARVIS.pdf){.paper-link}
+:::
+:::
+
+::: {.paper-card}
+[IEEE INFOCOM 2024]{.paper-venue}
+
+[T-PRIME: Transformer-based Protocol Identification for Machine-learning at the Edge]{.paper-title}
+
+[Mauro Belgiovine, Joshua Groen, **Miquel Sirera Perelló**, Chinenye Tassie, Sage Trudeau, Stratis Ioannidis, Kaushik Chowdhury]{.paper-authors}
+
+::: {.paper-actions}
+[ PDF](./research/T-PRIME.pdf){.paper-link}
+:::
+:::
+
+::: {.paper-card}
+[ICNC 2024]{.paper-venue}
+
+[MEGATRON: Machine Learning in 5G with Analysis of Traffic in Open Radio Access Networks]{.paper-title}
+
+[Mauro Belgiovine, Jerry Gu, Joshua Groen, **Miquel Sirera Perelló**, Utku Demir, Kaushik Chowdhury]{.paper-authors}
+
+::: {.paper-actions}
+[ PDF](./research/MEGATRON.pdf){.paper-link}
+:::
+:::
+
+::: {.paper-card}
+[BSc Thesis · 2023]{.paper-venue}
+
+[Deep Learning for Wireless Communications]{.paper-title}
+
+[**Miquel Sirera Perelló**, Kaushik Chowdhury, Albert Cabellos-Aparicio]{.paper-authors}
+
+::: {.paper-actions}
+[ PDF](./research/TFG.pdf){.paper-link}
+:::
+:::
+
+::: {.section-eyebrow}
+On the road
+:::
+
+## Conferences attended  {.no-toc}
+
+::: {.conf-list}
+
+::: {.conf-card}
+[MILCOM 2024]{.conf-name}
+
+[Washington, DC]{.conf-loc}
+
+[Presented]{.conf-status}
+:::
+
+::: {.conf-card}
+[ICLR 2025]{.conf-name}
+
+[Singapore]{.conf-loc}
+
+[Attended]{.conf-status}
+:::
+
+::: {.conf-card}
+[AISTATS 2025]{.conf-name}
+
+[Phuket, Thailand]{.conf-loc}
+
+[Presented]{.conf-status}
+:::
+
+:::
+
+::: {.section-eyebrow}
+Indexes
+:::
+
+## Find me on  {.no-toc}
+
+[Google Scholar](https://scholar.google.com/citations?user=DF9KcekAAAAJ){.chip} · [ORCID](https://orcid.org/0009-0005-8840-6746){.chip} · [DBLP](https://dblp.org/pid/366/4777.html){.chip} · [Semantic Scholar](https://www.semanticscholar.org/author/Miquel-Sirera/2278836383){.chip}
