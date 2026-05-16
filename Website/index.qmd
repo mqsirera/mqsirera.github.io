@@ -1,164 +1,209 @@
 ---
-title: "Miquel Sirera"
+title: " "
 pagetitle: "Miquel Sirera Perelló"
 description-meta: "PhD student at Northeastern · LLMs, distributed systems, edge AI."
-toc: true
-toc-location: right
-page-layout: article
-format:
-  html:
-    include-in-header:
-      text: |
-        <meta property="og:title" content="Miquel Sirera Perelló">
-        <meta property="og:description" content="PhD student at Northeastern building distributed LLMs that survive node failures, run on the edge, and stay accurate.">
-        <meta property="og:image" content="files/headshot_new.jpg">
+page-layout: full
+toc: false
+include-in-header:
+  text: |
+    <meta property="og:title" content="Miquel Sirera Perelló">
+    <meta property="og:description" content="PhD student at Northeastern building distributed LLMs that survive node failures, run on the edge, and stay accurate.">
+    <meta property="og:image" content="files/headshot_new.jpg">
 ---
 
 ```{=html}
+<!-- ============================================================
+     HERO
+     ============================================================ -->
 <section class="hero">
-  <div class="hero-photo">
-    <img src="files/headshot_new.jpg" alt="Miquel Sirera">
-  </div>
-  <div class="hero-body">
-    <h1 class="hero-name">Miquel<br>Sirera&nbsp;Perelló</h1>
-    <p class="hero-tagline">
-      PhD student at <strong>Northeastern</strong> building
-      <strong>distributed LLMs</strong> that survive node failures,
-      run on the edge, and stay accurate under real‑world constraints.
-    </p>
-    <div class="hero-links">
-      <a href="https://www.linkedin.com/in/mqsirera/" class="hero-link" target="_blank" rel="noopener">
-        <i class="bi bi-linkedin"></i><span>LinkedIn</span>
-      </a>
-      <a href="https://github.com/mqsirera" class="hero-link" target="_blank" rel="noopener">
-        <i class="bi bi-github"></i><span>GitHub</span>
-      </a>
-      <a href="mailto:sirera.m@northeastern.edu" class="hero-link">
-        <i class="bi bi-envelope"></i><span>Email</span>
-      </a>
-      <a href="./files/MiquelSirera_AcademicCV_Sep2025.pdf" class="hero-link" target="_blank" rel="noopener">
-        <i class="bi bi-filetype-pdf"></i><span>CV</span>
-      </a>
-      <a href="https://scholar.google.com/citations?user=DF9KcekAAAAJ" class="hero-link" target="_blank" rel="noopener">
-        <i class="bi bi-mortarboard"></i><span>Scholar</span>
-      </a>
-      <a href="https://www.instagram.com/mq.sirera/" class="hero-link" target="_blank" rel="noopener">
-        <i class="bi bi-instagram"></i><span>Instagram</span>
-      </a>
+  <div class="hero-grid">
+    <div class="hero-left">
+      <div class="hero-eyebrow">
+        <span class="live-dot"></span>
+        <span>Open to collaboration · Boston, MA</span>
+      </div>
+
+      <h1 class="hero-title">
+        Building
+        <span class="accent">resilient</span><br>
+        distributed&nbsp;LLMs.
+      </h1>
+
+      <p class="hero-tagline">
+        I'm Miquel — a PhD student at <strong>Northeastern</strong>
+        working on large language models that survive node failures,
+        run on the edge, and stay accurate under real-world constraints.
+      </p>
+
+      <div class="hero-cta">
+        <a class="btn-pill primary" href="./research.qmd">
+          See my research <span class="arrow">→</span>
+        </a>
+        <a class="btn-pill ghost" href="mailto:sirera.m@northeastern.edu">
+          Get in touch
+        </a>
+      </div>
+
+      <div class="hero-meta">
+        <div class="hero-meta-item">
+          <span class="hero-meta-label">Lab</span>
+          <span class="hero-meta-value">Genesys · Northeastern</span>
+        </div>
+        <div class="hero-meta-item">
+          <span class="hero-meta-label">Focus</span>
+          <span class="hero-meta-value">Distributed AI · Edge</span>
+        </div>
+        <div class="hero-meta-item">
+          <span class="hero-meta-label">Since</span>
+          <span class="hero-meta-value">2024</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-portrait">
+        <img src="files/hero_angle.png" alt="Miquel Sirera">
+      </div>
     </div>
   </div>
 </section>
+
+<!-- ============================================================
+     INTRO BAND
+     ============================================================ -->
+<section class="intro-band">
+  <p class="intro-copy">
+    I work at the intersection of <strong>machine learning</strong> and <strong>distributed systems</strong>.
+    Models are getting larger; the devices that need to run them aren't.
+    My research is about closing that gap — keeping inference fast, reliable, and accurate when the
+    compute is spread across many nodes that can fail at any moment.
+  </p>
+</section>
+
+<!-- ============================================================
+     PROJECTS
+     ============================================================ -->
+<section class="section">
+  <div class="section-inner">
+    <header class="section-head">
+      <div class="section-label">/ work</div>
+      <div>
+        <h2 class="section-title">What I'm <span class="accent">working on.</span></h2>
+        <p class="section-lede">
+          Three threads, all aimed at making large models practical when compute is distributed,
+          unreliable, or sitting on devices at the edge.
+        </p>
+      </div>
+    </header>
+
+    <div class="projects">
+      <a href="./research.qmd" class="project-row">
+        <div class="project-num">01</div>
+        <div class="project-content">
+          <h3>Resilience for Distributed LLMs</h3>
+          <p>Extending JARVIS, a framework that splits LLM layers across edge devices. We add peer-to-peer recovery and layer redundancy so the system keeps serving when nodes fail. Tested on Gemma-2B across 18 software-defined radios in the NSF Colosseum emulator and a 7-node Raspberry Pi cluster.</p>
+          <div class="project-tags">
+            <span class="project-tag">LLM inference</span>
+            <span class="project-tag">Fault tolerance</span>
+            <span class="project-tag">Edge AI</span>
+          </div>
+        </div>
+        <div class="project-arrow">→</div>
+      </a>
+
+      <a href="https://ece.northeastern.edu/fac-ece/ioannidis/static/pdf/2023/C_Jian_CommAwarePrune_Infocom2023.pdf" target="_blank" rel="noopener" class="project-row">
+        <div class="project-num">02</div>
+        <div class="project-content">
+          <h3>Communication-aware DNN pruning</h3>
+          <p>Training networks for distributed deployment so they need less inter-device communication while staying accurate. Pruning and placing neurons in CNNs and MLPs so they run well on the edge under mixed network conditions.</p>
+          <div class="project-tags">
+            <span class="project-tag">Model compression</span>
+            <span class="project-tag">Networking</span>
+          </div>
+        </div>
+        <div class="project-arrow">→</div>
+      </a>
+
+      <div class="project-row">
+        <div class="project-num">03</div>
+        <div class="project-content">
+          <h3>Knowledge editing in LLMs</h3>
+          <p>Looking at more efficient ways to update or correct specific facts and behaviors inside large language models — without full retraining, and without breaking everything else the model knows.</p>
+          <div class="project-tags">
+            <span class="project-tag">Model editing</span>
+            <span class="project-tag">LLMs</span>
+          </div>
+        </div>
+        <div class="project-arrow">→</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     BACKGROUND (compact timeline)
+     ============================================================ -->
+<section class="section" style="border-top: 1px solid var(--border);">
+  <div class="section-inner">
+    <header class="section-head">
+      <div class="section-label">/ background</div>
+      <div>
+        <h2 class="section-title">The <span class="accent">path</span> here.</h2>
+        <p class="section-lede">From data science in Barcelona to distributed LLMs in Boston.</p>
+      </div>
+    </header>
+
+    <div class="timeline">
+      <div class="tl-row">
+        <div class="tl-date">2024 — Present</div>
+        <div class="tl-content">
+          <h3>PhD, Computer Engineering</h3>
+          <p class="tl-place">Northeastern University · Boston</p>
+          <p class="tl-body">Distributed LLMs, edge AI, and resilient inference. Advised in the Genesys lab.</p>
+        </div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-date">2023</div>
+        <div class="tl-content">
+          <h3>Undergraduate Research Assistant</h3>
+          <p class="tl-place">Genesys Lab, Northeastern · Boston</p>
+          <p class="tl-body">Bachelor's thesis on AI for wireless — signal classification with deep models. Hooked me on AI + wireless and started my path here.</p>
+        </div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-date">2022</div>
+        <div class="tl-content">
+          <h3>AI Engineer Intern</h3>
+          <p class="tl-place">Abi Global Health · Remote</p>
+          <p class="tl-body">MLOps monitoring and ML model work for a global tele-health platform.</p>
+        </div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-date">2019 — 2023</div>
+        <div class="tl-content">
+          <h3>BSc, Data Science &amp; Engineering</h3>
+          <p class="tl-place">Universitat Politècnica de Catalunya · Barcelona</p>
+          <p class="tl-body">GPA 8.89/10. Honors in Discrete Math &amp; Logic, Mathematical Optimization, Search &amp; Analysis of Information, and Advanced Topics of Data Science.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTACT CTA
+     ============================================================ -->
+<section class="contact-cta">
+  <div class="contact-eyebrow">/ Get in touch</div>
+  <h2>Let's build something <span class="accent">interesting.</span></h2>
+  <p>Always happy to talk about distributed ML, edge inference, or how to make models survive the real world.</p>
+  <div class="hero-cta" style="justify-content:center;">
+    <a class="btn-pill primary" href="mailto:sirera.m@northeastern.edu">
+      sirera.m@northeastern.edu
+    </a>
+    <a class="btn-pill ghost" href="https://www.linkedin.com/in/mqsirera/" target="_blank" rel="noopener">
+      LinkedIn <span class="arrow">→</span>
+    </a>
+  </div>
+</section>
 ```
-
-::: {.intro-eyebrow}
-[]{.dot} Open to collaboration · Boston, MA
-:::
-
-## Hi, I'm Miquel  {.unlisted}
-
-I work at the intersection of **machine learning** and **distributed systems** — building large language models that can train and run across many devices, gracefully handle failure, and stay efficient at the edge.
-
-Before Boston, I studied Data Science at UPC in Barcelona. I like research that ships, collaborators who push my thinking, and problems that don't have a clean answer yet. If any of what's below sounds interesting, [reach out](mailto:sirera.m@northeastern.edu) — I'm always up for a conversation.
-
-::: {.chips}
-[Distributed LLMs]{.chip .is-primary}
-[Resilient Inference]{.chip}
-[Edge AI]{.chip}
-[Knowledge Editing]{.chip}
-[Wireless + ML]{.chip}
-[PyTorch]{.chip}
-[CUDA]{.chip}
-[Python]{.chip}
-:::
-
-::: {.section-eyebrow}
-What I'm working on
-:::
-
-## Current projects
-
-::: {.project-grid}
-
-::: {.project-card}
-[Flagship]{.card-tag}
-
-### Resilience for Distributed LLMs
-
-Extending **JARVIS** — a framework that splits LLM layers across edge devices with limited compute. We add peer-to-peer recovery and layer redundancy so the system keeps serving when nodes fail. Tested on Gemma-2B across 18 software-defined radios in the NSF Colosseum emulator and a 7-node Raspberry Pi cluster. More in [Research](./research.qmd).
-:::
-
-::: {.project-card}
-[Networking + ML]{.card-tag}
-
-### Communication-aware DNN pruning
-
-Training networks for distributed deployment so they need less inter-device communication while staying accurate. Pruning and placing neurons in CNNs and MLPs so they run well on the edge under mixed network conditions. Builds on [prior work from our group](https://ece.northeastern.edu/fac-ece/ioannidis/static/pdf/2023/C_Jian_CommAwarePrune_Infocom2023.pdf).
-:::
-
-::: {.project-card}
-[LLMs]{.card-tag}
-
-### Knowledge editing in LLMs
-
-Looking at more efficient ways to update or correct specific facts and behaviors inside large language models — without full retraining, and without breaking everything else the model knows.
-:::
-
-:::
-
-::: {.section-eyebrow}
-A bit more
-:::
-
-## Background
-
-::: {.timeline}
-
-::: {.timeline-item}
-[2024 — Present]{.ti-date}
-
-#### PhD, Computer Engineering  {.ti-title .unlisted}
-
-[Northeastern University · Boston]{.ti-place}
-
-[Distributed LLMs, edge AI, and resilient inference. Advised in the Genesys lab.]{.ti-body}
-:::
-
-::: {.timeline-item}
-[2023]{.ti-date}
-
-#### Undergraduate Research Assistant  {.ti-title .unlisted}
-
-[Genesys Lab, Northeastern · Boston]{.ti-place}
-
-[Bachelor's thesis on AI for wireless — signal classification with deep models. Hooked me on AI + wireless and started my path here.]{.ti-body}
-:::
-
-::: {.timeline-item}
-[2022]{.ti-date}
-
-#### AI Engineer Intern  {.ti-title .unlisted}
-
-[Abi Global Health · Remote]{.ti-place}
-
-[MLOps monitoring and ML model work for a global tele-health platform.]{.ti-body}
-:::
-
-::: {.timeline-item}
-[2019 — 2023]{.ti-date}
-
-#### BSc, Data Science & Engineering  {.ti-title .unlisted}
-
-[Universitat Politècnica de Catalunya · Barcelona]{.ti-place}
-
-[GPA 8.89/10. Honors in Discrete Math & Logic, Mathematical Optimization, Search & Analysis of Information, and Advanced Topics of Data Science.]{.ti-body}
-:::
-
-:::
-
-::: {.section-eyebrow}
-Get in touch
-:::
-
-## Say hi
-
-Best way to reach me is **[sirera.m@northeastern.edu](mailto:sirera.m@northeastern.edu)** or [LinkedIn](https://www.linkedin.com/in/mqsirera/). I read everything, even if my replies aren't always fast.

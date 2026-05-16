@@ -1,148 +1,144 @@
 ---
-title: "Resume"
-layout: page
+title: " "
+pagetitle: "Resume · Miquel Sirera"
+description-meta: "Resume and background for Miquel Sirera Perelló."
+page-layout: full
 toc: false
 ---
 
-::: {.intro-eyebrow}
-[]{.dot} CV & background
-:::
+```{=html}
+<header class="page-hero">
+  <div class="section-inner">
+    <div class="ph-label">/ resume</div>
+    <h1>Background and <span class="accent">experience.</span></h1>
+    <p class="ph-lede">From data science at UPC in Barcelona to a PhD in distributed LLMs at Northeastern.</p>
+    <div class="hero-cta" style="margin-top: 2rem;">
+      <a class="btn-pill primary" href="./files/MiquelSirera_AcademicCV_Sep2025.pdf" target="_blank" rel="noopener">Academic CV ↗</a>
+      <a class="btn-pill ghost" href="./files/MiquelSireraPerelloPhDNEU_Sep2025.pdf" target="_blank" rel="noopener">Industry CV ↗</a>
+    </div>
+  </div>
+</header>
 
-[ Academic CV](./files/MiquelSirera_AcademicCV_Sep2025.pdf){.btn .btn-primary}
-[ Industry CV](./files/MiquelSireraPerelloPhDNEU_Sep2025.pdf){.btn .btn-primary}
+<section class="section">
+  <div class="section-inner">
+    <header class="section-head">
+      <div class="section-label">/ profile</div>
+      <div>
+        <h2 class="section-title">A bit <span class="accent">about me.</span></h2>
+        <p class="section-lede">
+          BSc in Data Science and Engineering from UPC. Solid foundation in CS, math,
+          statistics, and signal processing. Now doing a PhD in Computer Engineering at
+          Northeastern, focused on work that ships and pushes ML and distributed systems
+          forward.
+        </p>
+      </div>
+    </header>
+  </div>
+</section>
 
-::: {.panel-tabset}
+<section class="section" style="border-top: 1px solid var(--border);">
+  <div class="section-inner">
+    <header class="section-head">
+      <div class="section-label">/ education</div>
+      <div>
+        <h2 class="section-title">Where I <span class="accent">studied.</span></h2>
+      </div>
+    </header>
 
-# Profile
+    <div class="timeline">
+      <div class="tl-row">
+        <div class="tl-date">Jan 2024 — Present</div>
+        <div class="tl-content">
+          <h3>PhD in Computer Engineering</h3>
+          <p class="tl-place">Northeastern University · Boston</p>
+          <p class="tl-body">
+            Working at the intersection of ML, LLMs, distributed training and inference, and edge AI.
+            Interested in making models more resilient, in running AI efficiently on edge and cloud,
+            and in how AI can improve telecom — network performance and automation. Especially
+            curious about LLMs: attention, knowledge representation, and editing.
+          </p>
+        </div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-date">Sep 2019 — Jul 2023</div>
+        <div class="tl-content">
+          <h3>BSc in Data Science &amp; Engineering</h3>
+          <p class="tl-place">Universitat Politècnica de Catalunya · Barcelona</p>
+          <p class="tl-body">
+            GPA 8.89/10. Honors in four courses: Discrete Mathematics &amp; Logic, Mathematical
+            Optimization, Search and Analysis of Information, and Advanced Topics of Data Science.
+          </p>
+        </div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-date">Sep 2017 — Jun 2019</div>
+        <div class="tl-content">
+          <h3>High School</h3>
+          <p class="tl-place">La Salle Bonanova · Barcelona</p>
+          <p class="tl-body">
+            Graduated with honors. Scored 13.556/14 on the PAU university entrance exams.
+            Math contests (Pangea, "Fem Matemàtiques") and extra math enrichment.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-I have a BSc in Data Science and Engineering from Universitat Politècnica de Catalunya, with a solid foundation in CS, math, statistics, and signal processing. I'm now doing a Ph.D. in Computer Engineering at Northeastern, focused on research that pushes things forward — especially in ML, distributed systems, and large language models. I like getting things shipped and aim for work that has real impact.
+<section class="section" style="border-top: 1px solid var(--border);">
+  <div class="section-inner">
+    <header class="section-head">
+      <div class="section-label">/ experience</div>
+      <div>
+        <h2 class="section-title">Things I've <span class="accent">worked on.</span></h2>
+      </div>
+    </header>
 
-::: {.chips}
-[Machine Learning]{.chip .is-primary}
-[Large Language Models]{.chip}
-[Distributed Systems]{.chip}
-[Edge AI]{.chip}
-[Wireless + AI]{.chip}
-[PyTorch]{.chip}
-[CUDA]{.chip}
-[Python]{.chip}
-[Linux]{.chip}
-[MLOps]{.chip}
-:::
+    <div class="timeline">
+      <div class="tl-row">
+        <div class="tl-date">Feb 2023 — Jul 2023</div>
+        <div class="tl-content">
+          <h3>BSc Thesis · Genesys Lab</h3>
+          <p class="tl-place">Northeastern · Institute for the Wireless Internet of Things</p>
+          <p class="tl-body">
+            AI for wireless communications. Designed and implemented AI-based approaches for
+            signal classification. This work got me into AI + wireless and I've been here since.
+          </p>
+        </div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-date">Mar 2022 — Dec 2022</div>
+        <div class="tl-content">
+          <h3>AI Engineer Intern</h3>
+          <p class="tl-place">Abi Global Health</p>
+          <p class="tl-body">
+            Internship at a global tele-health company. Improved monitoring in their MLOps
+            setup and helped the AI Lab build new ML models and improve existing ones.
+          </p>
+        </div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-date">Feb 2022 — Jun 2022</div>
+        <div class="tl-content">
+          <h3>BECO · environmentally-conscious decisions</h3>
+          <p class="tl-place">Naptilus Tech Lab</p>
+          <p class="tl-body">
+            Built a software product that used user data to help people reduce their carbon
+            footprint. Shipped "BECO" — an app that used ML to suggest more sustainable options.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-# Education
-
-::: {.timeline}
-
-::: {.timeline-item}
-[Jan 2024 — Present]{.ti-date}
-
-#### PhD in Computer Engineering  {.ti-title .no-toc}
-
-[Northeastern University · Boston]{.ti-place}
-
-[At the intersection of ML, LLMs, distributed training and inference, and edge AI. Interested in making models more resilient and robust, in running AI efficiently on edge and cloud, and in how AI can improve telecom — network performance and automation. Especially curious about LLMs: attention, knowledge representation, and editing. Goal: build systems that are efficient, scalable, and reliable.]{.ti-body}
-:::
-
-::: {.timeline-item}
-[Sep 2019 — Jul 2023]{.ti-date}
-
-#### BSc in Data Science & Engineering  {.ti-title .no-toc}
-
-[Universitat Politècnica de Catalunya · Barcelona]{.ti-place}
-
-[Graduated with GPA 8.89/10. Honors in four courses: Discrete Mathematics & Logic, Mathematical Optimization, Search and Analysis of Information, and Advanced Topics of Data Science.]{.ti-body}
-:::
-
-::: {.timeline-item}
-[Sep 2017 — Jun 2019]{.ti-date}
-
-#### High School  {.ti-title .no-toc}
-
-[La Salle Bonanova · Barcelona]{.ti-place}
-
-[Graduated with honors. Scored 13.556/14 on the PAU university entrance exams and earned the PAU distinction. Math contests (Pangea, "Fem Matemàtiques") and extra math enrichment.]{.ti-body}
-:::
-
-:::
-
-# Experience
-
-::: {.timeline}
-
-::: {.timeline-item}
-[Feb 2023 — Jul 2023]{.ti-date}
-
-#### BSc Thesis · Genesys Lab  {.ti-title .no-toc}
-
-[Northeastern University · Institute for the Wireless Internet of Things]{.ti-place}
-
-[Worked with a research team on AI for wireless communications. Designed and implemented AI-based approaches for signal classification. This work got me into AI + wireless and I've been here since.]{.ti-body}
-:::
-
-::: {.timeline-item}
-[Mar 2022 — Dec 2022]{.ti-date}
-
-#### AI Engineer Intern  {.ti-title .no-toc}
-
-[Abi Global Health]{.ti-place}
-
-[Internship at a global tele-health company. Improved monitoring in their MLOps setup and helped the AI Lab build new ML models and improve existing ones.]{.ti-body}
-:::
-
-:::
-
-# Side projects
-
-::: {.timeline}
-
-::: {.timeline-item}
-[2021 — Present]{.ti-date}
-
-#### Datathons & hackathons  {.ti-title .no-toc}
-
-[Various]{.ti-place}
-
-[Done a bunch of datathons and hackathons — UPC Datathon and Google Hash Code (twice among others). Sharp problem-solving practice and good teamwork reps.]{.ti-body}
-:::
-
-::: {.timeline-item}
-[Feb 2022 — Jun 2022]{.ti-date}
-
-#### BECO · environmentally-conscious decisions  {.ti-title .no-toc}
-
-[Naptilus Tech Lab]{.ti-place}
-
-[Built a software product that used user data to help people reduce their carbon footprint. Shipped "BECO" — an app that used ML to suggest more sustainable options (e.g. eco-friendly places).]{.ti-body}
-:::
-
-:::
-
-# Skills
-
-I'm strong in problem-solving and critical thinking, and I work well in teams. I pick up new things quickly and I'm comfortable with change. I care about doing good work, I manage my time well, and I stay organized. That's how I get things done.
-
-**Technical**
-
-::: {.chips}
-[Python]{.chip}
-[PyTorch]{.chip}
-[CUDA]{.chip}
-[C/C++]{.chip}
-[Git]{.chip}
-[Linux]{.chip}
-[Docker]{.chip}
-[SLURM]{.chip}
-[MLOps]{.chip}
-[LaTeX]{.chip}
-:::
-
-**Languages**
-
-::: {.chips}
-[Catalan — Native]{.chip}
-[Spanish — Native]{.chip}
-[English — Fluent]{.chip}
-:::
-
-:::
+<section class="contact-cta">
+  <div class="contact-eyebrow">/ Get in touch</div>
+  <h2>Want to <span class="accent">work together?</span></h2>
+  <p>Best way is email. I read everything, even if my replies aren't always fast.</p>
+  <div class="hero-cta" style="justify-content:center;">
+    <a class="btn-pill primary" href="mailto:sirera.m@northeastern.edu">sirera.m@northeastern.edu</a>
+    <a class="btn-pill ghost" href="https://www.linkedin.com/in/mqsirera/" target="_blank" rel="noopener">LinkedIn ↗</a>
+  </div>
+</section>
+```

@@ -1,120 +1,129 @@
 ---
-title: "Research"
-layout: page
+title: " "
+pagetitle: "Research · Miquel Sirera"
+description-meta: "Publications and venues for Miquel Sirera Perelló."
+page-layout: full
 toc: false
 ---
 
-::: {.intro-eyebrow}
-[]{.dot} Publications & venues
-:::
+```{=html}
+<header class="page-hero">
+  <div class="section-inner">
+    <div class="ph-label">/ research</div>
+    <h1>Papers, <span class="accent">posters, and venues.</span></h1>
+    <p class="ph-lede">Most of my work sits at the intersection of AI, distributed systems, and wireless. Here's what's published and where to find it.</p>
+  </div>
+</header>
 
-Most of my work sits at the intersection of **AI, distributed systems, and wireless**. Below is what's published, where, and what I'm presenting next. If anything sparks ideas, [reach out](mailto:sirera.m@northeastern.edu).
+<section class="section">
+  <div class="section-inner">
+    <header class="section-head">
+      <div class="section-label">/ publications</div>
+      <div>
+        <h2 class="section-title">Selected <span class="accent">papers.</span></h2>
+      </div>
+    </header>
 
-::: {.section-eyebrow}
-Publications
-:::
+    <div class="papers">
+      <article class="paper-row">
+        <div class="paper-venue">AISTATS 2025</div>
+        <div class="paper-content">
+          <h3 class="paper-title">Neural Point Processes for Pixel-wise Regression</h3>
+          <p class="paper-authors">Chengzhi Shi, Gözde Özcan, <em>Miquel Sirera Perelló</em>, Stratis Ioannidis</p>
+        </div>
+        <div class="paper-actions">
+          <a class="paper-link" href="./research/NPP.pdf" target="_blank" rel="noopener">PDF ↗</a>
+        </div>
+      </article>
 
-## Papers  {.no-toc}
+      <article class="paper-row">
+        <div class="paper-venue">IEEE MILCOM 2024</div>
+        <div class="paper-content">
+          <h3 class="paper-title">JARVIS: Disjoint Large Language Models on Radio VLANs for Intelligent Services</h3>
+          <p class="paper-authors"><em>Miquel Sirera Perelló</em>, Joshua Groen, Wan Liu, Stratis Ioannidis, Kaushik Chowdhury</p>
+        </div>
+        <div class="paper-actions">
+          <a class="paper-link" href="./research/JARVIS.pdf" target="_blank" rel="noopener">PDF ↗</a>
+          <a class="paper-link" href="./research/Poster_JARVIS.pdf" target="_blank" rel="noopener">Poster ↗</a>
+        </div>
+      </article>
 
-::: {.paper-card}
-[AISTATS 2025]{.paper-venue}
+      <article class="paper-row">
+        <div class="paper-venue">IEEE INFOCOM 2024</div>
+        <div class="paper-content">
+          <h3 class="paper-title">T-PRIME: Transformer-based Protocol Identification for Machine-learning at the Edge</h3>
+          <p class="paper-authors">Mauro Belgiovine, Joshua Groen, <em>Miquel Sirera Perelló</em>, Chinenye Tassie, Sage Trudeau, Stratis Ioannidis, Kaushik Chowdhury</p>
+        </div>
+        <div class="paper-actions">
+          <a class="paper-link" href="./research/T-PRIME.pdf" target="_blank" rel="noopener">PDF ↗</a>
+        </div>
+      </article>
 
-[Neural Point Processes for Pixel-wise Regression]{.paper-title}
+      <article class="paper-row">
+        <div class="paper-venue">ICNC 2024</div>
+        <div class="paper-content">
+          <h3 class="paper-title">MEGATRON: Machine Learning in 5G with Analysis of Traffic in Open Radio Access Networks</h3>
+          <p class="paper-authors">Mauro Belgiovine, Jerry Gu, Joshua Groen, <em>Miquel Sirera Perelló</em>, Utku Demir, Kaushik Chowdhury</p>
+        </div>
+        <div class="paper-actions">
+          <a class="paper-link" href="./research/MEGATRON.pdf" target="_blank" rel="noopener">PDF ↗</a>
+        </div>
+      </article>
 
-[Chengzhi Shi, Gözde Özcan, **Miquel Sirera Perelló**, Stratis Ioannidis]{.paper-authors}
+      <article class="paper-row">
+        <div class="paper-venue">BSc Thesis · 2023</div>
+        <div class="paper-content">
+          <h3 class="paper-title">Deep Learning for Wireless Communications</h3>
+          <p class="paper-authors"><em>Miquel Sirera Perelló</em>, Kaushik Chowdhury, Albert Cabellos-Aparicio</p>
+        </div>
+        <div class="paper-actions">
+          <a class="paper-link" href="./research/TFG.pdf" target="_blank" rel="noopener">PDF ↗</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
 
-::: {.paper-actions}
-[ PDF](./research/NPP.pdf){.paper-link}
-:::
-:::
+<section class="section" style="border-top: 1px solid var(--border);">
+  <div class="section-inner">
+    <header class="section-head">
+      <div class="section-label">/ on the road</div>
+      <div>
+        <h2 class="section-title">Conferences <span class="accent">attended.</span></h2>
+      </div>
+    </header>
 
-::: {.paper-card}
-[IEEE MILCOM 2024]{.paper-venue}
+    <div class="conf-grid">
+      <div class="conf-tile">
+        <div class="conf-year">2024</div>
+        <h3 class="conf-name">IEEE MILCOM</h3>
+        <p class="conf-loc">Washington, DC</p>
+        <span class="conf-status">Presented</span>
+      </div>
+      <div class="conf-tile">
+        <div class="conf-year">2025</div>
+        <h3 class="conf-name">ICLR</h3>
+        <p class="conf-loc">Singapore</p>
+        <span class="conf-status">Attended</span>
+      </div>
+      <div class="conf-tile">
+        <div class="conf-year">2025</div>
+        <h3 class="conf-name">AISTATS</h3>
+        <p class="conf-loc">Phuket, Thailand</p>
+        <span class="conf-status">Presented</span>
+      </div>
+    </div>
+  </div>
+</section>
 
-[JARVIS: Disjoint Large Language Models on Radio VLANs for Intelligent Services]{.paper-title}
-
-[**Miquel Sirera Perelló**, Joshua Groen, Wan Liu, Stratis Ioannidis, Kaushik Chowdhury]{.paper-authors}
-
-::: {.paper-actions}
-[ PDF](./research/JARVIS.pdf){.paper-link}
-[ Poster](./research/Poster_JARVIS.pdf){.paper-link}
-:::
-:::
-
-::: {.paper-card}
-[IEEE INFOCOM 2024]{.paper-venue}
-
-[T-PRIME: Transformer-based Protocol Identification for Machine-learning at the Edge]{.paper-title}
-
-[Mauro Belgiovine, Joshua Groen, **Miquel Sirera Perelló**, Chinenye Tassie, Sage Trudeau, Stratis Ioannidis, Kaushik Chowdhury]{.paper-authors}
-
-::: {.paper-actions}
-[ PDF](./research/T-PRIME.pdf){.paper-link}
-:::
-:::
-
-::: {.paper-card}
-[ICNC 2024]{.paper-venue}
-
-[MEGATRON: Machine Learning in 5G with Analysis of Traffic in Open Radio Access Networks]{.paper-title}
-
-[Mauro Belgiovine, Jerry Gu, Joshua Groen, **Miquel Sirera Perelló**, Utku Demir, Kaushik Chowdhury]{.paper-authors}
-
-::: {.paper-actions}
-[ PDF](./research/MEGATRON.pdf){.paper-link}
-:::
-:::
-
-::: {.paper-card}
-[BSc Thesis · 2023]{.paper-venue}
-
-[Deep Learning for Wireless Communications]{.paper-title}
-
-[**Miquel Sirera Perelló**, Kaushik Chowdhury, Albert Cabellos-Aparicio]{.paper-authors}
-
-::: {.paper-actions}
-[ PDF](./research/TFG.pdf){.paper-link}
-:::
-:::
-
-::: {.section-eyebrow}
-On the road
-:::
-
-## Conferences attended  {.no-toc}
-
-::: {.conf-list}
-
-::: {.conf-card}
-[MILCOM 2024]{.conf-name}
-
-[Washington, DC]{.conf-loc}
-
-[Presented]{.conf-status}
-:::
-
-::: {.conf-card}
-[ICLR 2025]{.conf-name}
-
-[Singapore]{.conf-loc}
-
-[Attended]{.conf-status}
-:::
-
-::: {.conf-card}
-[AISTATS 2025]{.conf-name}
-
-[Phuket, Thailand]{.conf-loc}
-
-[Presented]{.conf-status}
-:::
-
-:::
-
-::: {.section-eyebrow}
-Indexes
-:::
-
-## Find me on  {.no-toc}
-
-[Google Scholar](https://scholar.google.com/citations?user=DF9KcekAAAAJ){.chip} · [ORCID](https://orcid.org/0009-0005-8840-6746){.chip} · [DBLP](https://dblp.org/pid/366/4777.html){.chip} · [Semantic Scholar](https://www.semanticscholar.org/author/Miquel-Sirera/2278836383){.chip}
+<section class="contact-cta">
+  <div class="contact-eyebrow">/ Indexes</div>
+  <h2>Find me <span class="accent">elsewhere.</span></h2>
+  <div class="hero-cta" style="justify-content:center;">
+    <a class="btn-pill ghost" href="https://scholar.google.com/citations?user=DF9KcekAAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a>
+    <a class="btn-pill ghost" href="https://orcid.org/0009-0005-8840-6746" target="_blank" rel="noopener">ORCID ↗</a>
+    <a class="btn-pill ghost" href="https://dblp.org/pid/366/4777.html" target="_blank" rel="noopener">DBLP ↗</a>
+    <a class="btn-pill ghost" href="https://www.semanticscholar.org/author/Miquel-Sirera/2278836383" target="_blank" rel="noopener">Semantic Scholar ↗</a>
+  </div>
+</section>
+```
