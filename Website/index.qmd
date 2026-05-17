@@ -62,7 +62,7 @@ include-in-header:
 
     <div class="hero-right">
       <div class="hero-portrait">
-        <img src="files/hero_angle.png" alt="Miquel Sirera">
+        <img src="files/hero_side.png" alt="Miquel Sirera">
       </div>
     </div>
   </div>
