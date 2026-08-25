@@ -47,7 +47,7 @@ format:
       dark: darkly
     css: styles.css
     toc: false
-    page-layout: full
+    page-layout: custom
     smooth-scroll: true
     anchor-sections: true
     link-external-newwindow: true

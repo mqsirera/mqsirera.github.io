@@ -2,7 +2,7 @@
 title: " "
 pagetitle: "Miquel Sirera Perelló"
 description-meta: "PhD student at Northeastern · LLMs, distributed systems, edge AI."
-page-layout: full
+page-layout: custom
 toc: false
 include-in-header:
   text: |

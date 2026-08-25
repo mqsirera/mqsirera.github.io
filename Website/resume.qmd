@@ -2,7 +2,7 @@
 title: " "
 pagetitle: "Resume · Miquel Sirera"
 description-meta: "Resume and background for Miquel Sirera Perelló."
-page-layout: full
+page-layout: custom
 toc: false
 ---
 
