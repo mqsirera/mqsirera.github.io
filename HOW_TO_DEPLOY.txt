@@ -23,6 +23,6 @@ How to publish your Quarto website to GitHub Pages
      quarto publish gh-pages
    - Confirm when prompted. Quarto will render the site, push to the gh-pages branch, and open the site in your browser when it’s live.
 
-3. If the site lives at a subpath (e.g. username.github.io/personalWebsite), that’s normal for project pages. User pages (username.github.io) use a repo named username.github.io.
+3. This is a user site: it publishes at https://mqsirera.github.io/ (not /personalWebsite). The GitHub repo is mqsirera/mqsirera.github.io.
 
 Full reference: https://quarto.org/docs/publishing/github-pages.html (section “Publish Command”).
