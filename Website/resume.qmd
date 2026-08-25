@@ -13,7 +13,7 @@ toc: false
     <h1>Background and <span class="accent">experience.</span></h1>
     <p class="ph-lede">From data science at UPC in Barcelona to a PhD in distributed LLMs at Northeastern.</p>
     <div class="hero-cta" style="margin-top: 2rem;">
-      <a class="btn-pill primary" href="./files/MiquelSirera_AcademicCV_Sep2025.pdf" target="_blank" rel="noopener">Academic CV ↗</a>
+      <a class="btn-pill primary" href="./files/MiquelSirera_AcademicCV_Sep2026.pdf" target="_blank" rel="noopener">Academic CV ↗</a>
       <a class="btn-pill ghost" href="./files/MiquelSireraPerelloPhDNEU_Sep2025.pdf" target="_blank" rel="noopener">Industry CV ↗</a>
     </div>
   </div>

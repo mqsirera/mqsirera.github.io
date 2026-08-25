@@ -45,14 +45,13 @@ format:
       light: cosmo
       dark: darkly
     css: styles.css
-    toc: true
-    toc-location: right
-    toc-depth: 2
+    toc: false
+    page-layout: full
     smooth-scroll: true
     anchor-sections: true
     link-external-newwindow: true
     link-external-icon: false
     grid:
-      sidebar-width: 240px
-      body-width: 820px
-      margin-width: 240px
+      sidebar-width: 0px
+      body-width: 1280px
+      margin-width: 0px
