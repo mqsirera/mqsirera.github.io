@@ -105,14 +105,26 @@ code {
   padding: 0 clamp(1.25rem, 4vw, 3rem);
 }
 
-/* Quarto default content wrapper */
-main.content,
-.quarto-container {
+/* Quarto default content wrapper.
+   Important: do NOT collapse .page-columns to a single unnamed 1fr track.
+   Quarto places main with grid-column: page-start / page-end; if those
+   named lines disappear, the browser invents implicit columns and the
+   page content shifts to the right. */
+#quarto-content.page-columns {
+  display: block !important;
   max-width: none !important;
   padding: 0 !important;
   margin: 0 !important;
 }
-#quarto-content { padding: 0 !important; }
+main.content,
+main.content.column-page {
+  display: block !important;
+  max-width: none !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  grid-column: auto !important;
+}
 
 /* hide default Quarto title block (we render our own hero) */
 .quarto-title-block.default { display: none !important; }
@@ -891,7 +903,6 @@ img { max-width: 100%; }
 
 /* hide quarto's auto sidebar/TOC since we control layout */
 #quarto-sidebar, .sidebar.margin-sidebar, #TOC { display: none !important; }
-.page-columns { grid-template-columns: 1fr !important; }
 #quarto-margin-sidebar { display: none !important; }
 
 @media (prefers-reduced-motion: reduce) {
