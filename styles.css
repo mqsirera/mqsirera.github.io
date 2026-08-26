@@ -54,7 +54,7 @@
 
 /* ---- Base ---- */
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; background: var(--bg); }
+html { scroll-behavior: smooth; background: var(--bg); overflow-x: hidden; }
 body {
   background: var(--bg);
   color: var(--fg);
@@ -78,8 +78,13 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.025em;
   line-height: 1.15;
   margin: 0;
+  overflow-wrap: anywhere;
 }
-p { color: var(--fg-soft); margin: 0 0 1.2em; }
+p {
+  color: var(--fg-soft);
+  margin: 0 0 1.2em;
+  overflow-wrap: anywhere;
+}
 strong { color: var(--fg); font-weight: 600; }
 
 a {
@@ -111,6 +116,7 @@ code {
 html, body {
   width: 100%;
   max-width: 100%;
+  overflow-x: clip;
 }
 body {
   display: block !important;
@@ -208,6 +214,7 @@ main#quarto-document-content {
   display: block;
   overflow: hidden;
   isolation: isolate;
+  contain: paint;
 }
 
 /* Animated mesh gradient backdrop */
@@ -253,6 +260,7 @@ main#quarto-document-content {
   align-items: center;
   position: relative;
 }
+.hero-grid > * { min-width: 0; max-width: 100%; }
 
 .hero-left { z-index: 2; }
 
@@ -421,10 +429,70 @@ main#quarto-document-content {
 }
 
 @media (max-width: 900px) {
-  .hero-grid { grid-template-columns: 1fr; gap: 2rem; }
-  .hero-right { order: -1; min-height: 360px; }
-  .hero-portrait { max-width: 360px; }
-  .hero-title { font-size: clamp(2.2rem, 12vw, 3.6rem); }
+  .hero {
+    min-height: 0;
+    padding: 1.5rem 1.25rem 2.5rem;
+  }
+  .hero-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.25rem;
+  }
+  .hero-right {
+    order: -1;
+    min-height: 0;
+    width: 100%;
+    justify-content: center;
+  }
+  .hero-portrait {
+    max-width: 220px;
+    margin: 0 auto;
+    aspect-ratio: 3 / 4;
+  }
+  .hero-title {
+    font-size: clamp(1.85rem, 9vw, 2.6rem);
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+  .hero-tagline { font-size: 1rem; max-width: none; }
+  .hero-eyebrow {
+    max-width: 100%;
+    flex-wrap: wrap;
+    white-space: normal;
+    font-size: 0.68rem;
+  }
+  .hero-cta {
+    margin-bottom: 1.5rem;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .hero-cta .btn-pill { width: 100%; }
+  .hero-meta {
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .btn-pill {
+    white-space: normal;
+    max-width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  .page-hero {
+    padding: 2.5rem 1.25rem 1.75rem;
+  }
+  .page-hero h1 {
+    font-size: clamp(1.85rem, 9vw, 2.6rem);
+    overflow-wrap: anywhere;
+  }
+  .page-hero .ph-lede { font-size: 1rem; }
+  .section { padding: 2.75rem 1.25rem; }
+  .section-title { font-size: clamp(1.7rem, 8vw, 2.3rem); }
+  .contact-cta { padding: 3.5rem 1.25rem; }
+  .contact-cta h2 { font-size: clamp(1.7rem, 8vw, 2.4rem); }
+  .navbar .navbar-container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .conf-grid { grid-template-columns: 1fr; }
 }
 
 /* ============================================================
@@ -838,6 +906,7 @@ main#quarto-document-content {
   border-bottom: 1px solid var(--border);
   position: relative;
   overflow: hidden;
+  contain: paint;
 }
 .page-hero::before {
   content: "";
