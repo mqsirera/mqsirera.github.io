@@ -111,19 +111,16 @@ code {
   padding: 0 clamp(1.25rem, 4vw, 3rem);
 }
 
-/* Quarto layout: ignore the article grid. Never restyle <script> —
-   display:block on scripts dumps their source as visible text. */
+/* Keep Quarto's grid off. Do not restyle <script> tags. */
 #quarto-content,
-.quarto-container {
+.quarto-container,
+main.content,
+main#quarto-document-content {
   display: block !important;
   width: 100% !important;
   max-width: none !important;
   margin: 0 !important;
   padding: 0 !important;
-}
-#quarto-content > script,
-script {
-  display: none !important;
 }
 
 .hero-grid,

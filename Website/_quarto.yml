@@ -4,6 +4,8 @@ project:
     - "index.qmd"
     - "research.qmd"
     - "resume.qmd"
+  post-render:
+    - python3 fix_html.py
 
 website:
   title: "Miquel Sirera"
@@ -47,11 +49,14 @@ format:
       dark: darkly
     css: styles.css
     toc: false
-    page-layout: custom
+    page-layout: full
     smooth-scroll: true
     anchor-sections: true
     link-external-newwindow: true
     link-external-icon: false
+    include-in-header:
+      text: |
+        <style>#quarto-html-after-body{display:none!important}</style>
     grid:
       sidebar-width: 0px
       body-width: 1280px

@@ -2,7 +2,7 @@
 title: " "
 pagetitle: "Research · Miquel Sirera"
 description-meta: "Publications and venues for Miquel Sirera Perelló."
-page-layout: custom
+page-layout: full
 toc: false
 ---
 

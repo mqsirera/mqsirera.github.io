@@ -2,13 +2,14 @@
 title: " "
 pagetitle: "Miquel Sirera Perelló"
 description-meta: "PhD student at Northeastern · LLMs, distributed systems, edge AI."
-page-layout: custom
+page-layout: full
 toc: false
 include-in-header:
   text: |
     <meta property="og:title" content="Miquel Sirera Perelló">
     <meta property="og:description" content="PhD student at Northeastern building distributed LLMs that survive node failures, run on the edge, and stay accurate.">
     <meta property="og:image" content="files/headshot_new.jpg">
+    <style>#quarto-html-after-body{display:none!important}</style>
 ---
 
 ```{=html}
