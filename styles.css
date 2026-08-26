@@ -33,7 +33,8 @@
 
   --radius: 14px;
   --radius-lg: 22px;
-  --maxw: 100%;
+  --maxw: 1120px;
+  --page-pad: clamp(1.25rem, 4vw, 2.5rem);
 }
 
 [data-bs-theme="light"] {
@@ -78,12 +79,12 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.025em;
   line-height: 1.15;
   margin: 0;
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
 }
 p {
   color: var(--fg-soft);
   margin: 0 0 1.2em;
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
 }
 strong { color: var(--fg); font-weight: 600; }
 
@@ -110,49 +111,26 @@ code {
   padding: 0 clamp(1.25rem, 4vw, 3rem);
 }
 
-/* Quarto's article grid reserves named columns (sidebar / body / margin).
-   That left a large empty track on the left and shoved the page right.
-   Take over layout completely: one full-width column, content centered. */
-html, body {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: clip;
-}
-body {
-  display: block !important;
-}
+/* Quarto layout: ignore the article grid. Never restyle <script> —
+   display:block on scripts dumps their source as visible text. */
 #quarto-content,
-#quarto-content.page-columns,
-#quarto-content.page-layout-full,
-#quarto-content.page-layout-custom,
 .quarto-container {
   display: block !important;
   width: 100% !important;
   max-width: none !important;
   margin: 0 !important;
   padding: 0 !important;
-  grid-template-columns: none !important;
-  grid-template-rows: none !important;
-  grid-column: auto !important;
 }
-#quarto-content > *,
-main.content,
-main.content.column-page,
-main#quarto-document-content {
-  display: block !important;
-  width: 100% !important;
-  max-width: none !important;
-  margin: 0 !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  float: none !important;
-  grid-column: 1 / -1 !important;
+#quarto-content > script,
+script {
+  display: none !important;
 }
 
 .hero-grid,
 .section-inner,
-.page-hero .section-inner,
-.intro-band .intro-copy {
+.page-hero .section-inner {
+  width: min(100%, var(--maxw));
+  max-width: var(--maxw);
   margin-left: auto;
   margin-right: auto;
 }
@@ -174,11 +152,11 @@ main#quarto-document-content {
   width: 100%;
 }
 .navbar .navbar-container {
-  width: 100% !important;
+  width: min(100%, calc(var(--maxw) + 2 * var(--page-pad))) !important;
   max-width: none !important;
-  margin: 0 !important;
-  padding-left: clamp(1.5rem, 5vw, 4rem) !important;
-  padding-right: clamp(1.5rem, 5vw, 4rem) !important;
+  margin: 0 auto !important;
+  padding-left: var(--page-pad) !important;
+  padding-right: var(--page-pad) !important;
 }
 [data-bs-theme="light"] .navbar {
   background: rgba(245, 246, 250, 0.7) !important;
@@ -210,11 +188,10 @@ main#quarto-document-content {
 .hero {
   position: relative;
   min-height: clamp(560px, 88vh, 880px);
-  padding: clamp(3rem, 8vh, 6rem) clamp(1.5rem, 5vw, 4rem) clamp(2rem, 6vh, 4rem);
+  padding: clamp(3rem, 8vh, 6rem) var(--page-pad) clamp(2rem, 6vh, 4rem);
   display: block;
   overflow: hidden;
   isolation: isolate;
-  contain: paint;
 }
 
 /* Animated mesh gradient backdrop */
@@ -251,16 +228,15 @@ main#quarto-document-content {
 }
 
 .hero-grid {
-  width: 100%;
-  max-width: none;
-  margin: 0;
+  width: min(100%, var(--maxw));
+  max-width: var(--maxw);
+  margin: 0 auto;
   display: grid;
   grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
   gap: clamp(1rem, 4vw, 4rem);
   align-items: center;
   position: relative;
 }
-.hero-grid > * { min-width: 0; max-width: 100%; }
 
 .hero-left { z-index: 2; }
 
@@ -431,7 +407,7 @@ main#quarto-document-content {
 @media (max-width: 900px) {
   .hero {
     min-height: 0;
-    padding: 1.5rem 1.25rem 2.5rem;
+    padding: 2rem var(--page-pad) 2.5rem;
   }
   .hero-grid {
     grid-template-columns: minmax(0, 1fr);
@@ -440,59 +416,23 @@ main#quarto-document-content {
   .hero-right {
     order: -1;
     min-height: 0;
-    width: 100%;
     justify-content: center;
   }
   .hero-portrait {
     max-width: 220px;
     margin: 0 auto;
-    aspect-ratio: 3 / 4;
   }
-  .hero-title {
-    font-size: clamp(1.85rem, 9vw, 2.6rem);
-    overflow-wrap: anywhere;
-    word-break: break-word;
-  }
-  .hero-tagline { font-size: 1rem; max-width: none; }
-  .hero-eyebrow {
-    max-width: 100%;
-    flex-wrap: wrap;
-    white-space: normal;
-    font-size: 0.68rem;
-  }
-  .hero-cta {
-    margin-bottom: 1.5rem;
-    flex-direction: column;
-    align-items: stretch;
-  }
-  .hero-cta .btn-pill { width: 100%; }
-  .hero-meta {
-    gap: 1rem;
-    flex-direction: column;
-  }
-  .btn-pill {
-    white-space: normal;
-    max-width: 100%;
-    justify-content: center;
-    text-align: center;
-  }
-  .page-hero {
-    padding: 2.5rem 1.25rem 1.75rem;
-  }
-  .page-hero h1 {
-    font-size: clamp(1.85rem, 9vw, 2.6rem);
-    overflow-wrap: anywhere;
-  }
-  .page-hero .ph-lede { font-size: 1rem; }
-  .section { padding: 2.75rem 1.25rem; }
-  .section-title { font-size: clamp(1.7rem, 8vw, 2.3rem); }
-  .contact-cta { padding: 3.5rem 1.25rem; }
-  .contact-cta h2 { font-size: clamp(1.7rem, 8vw, 2.4rem); }
-  .navbar .navbar-container {
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
-  }
-  .conf-grid { grid-template-columns: 1fr; }
+  .hero-title { font-size: clamp(1.9rem, 8vw, 2.6rem); }
+  .hero-tagline { font-size: 1rem; }
+  .hero-cta { margin-bottom: 1.5rem; }
+  .hero-meta { gap: 1.25rem; }
+  .page-hero { padding: 3rem var(--page-pad) 2rem; }
+  .page-hero h1 { font-size: clamp(1.9rem, 8vw, 2.6rem); }
+  .section { padding: 3rem var(--page-pad); }
+  .section-title { font-size: clamp(1.7rem, 7vw, 2.3rem); }
+  .contact-cta { padding: 3.5rem var(--page-pad); }
+  .contact-cta h2 { font-size: clamp(1.7rem, 7vw, 2.4rem); }
+  .intro-band { padding: 2.5rem var(--page-pad); }
 }
 
 /* ============================================================
@@ -500,13 +440,13 @@ main#quarto-document-content {
    ============================================================ */
 
 .section {
-  padding: clamp(4rem, 10vh, 8rem) clamp(1.5rem, 5vw, 4rem);
+  padding: clamp(4rem, 10vh, 8rem) var(--page-pad);
   position: relative;
 }
 
 .section-inner {
-  max-width: none;
-  width: 100%;
+  width: min(100%, var(--maxw));
+  max-width: var(--maxw);
   margin: 0 auto;
 }
 
@@ -562,7 +502,7 @@ main#quarto-document-content {
 /* ---- Intro band (the "about" copy) ---- */
 .intro-band {
   position: relative;
-  padding: clamp(4rem, 10vh, 7rem) clamp(1.5rem, 5vw, 4rem);
+  padding: clamp(4rem, 10vh, 7rem) var(--page-pad);
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
   background: linear-gradient(180deg, var(--bg) 0%, var(--bg-elev) 100%);
@@ -853,7 +793,7 @@ main#quarto-document-content {
    CONTACT CTA
    ============================================================ */
 .contact-cta {
-  padding: clamp(5rem, 14vh, 10rem) clamp(1.25rem, 4vw, 3rem);
+  padding: clamp(5rem, 14vh, 10rem) var(--page-pad);
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -902,11 +842,10 @@ main#quarto-document-content {
    PAGE HEADER (research / resume)
    ============================================================ */
 .page-hero {
-  padding: clamp(5rem, 14vh, 9rem) clamp(1.5rem, 5vw, 4rem) clamp(2rem, 6vh, 4rem);
+  padding: clamp(5rem, 14vh, 9rem) var(--page-pad) clamp(2rem, 6vh, 4rem);
   border-bottom: 1px solid var(--border);
   position: relative;
   overflow: hidden;
-  contain: paint;
 }
 .page-hero::before {
   content: "";
@@ -920,8 +859,8 @@ main#quarto-document-content {
 }
 .page-hero > * { position: relative; z-index: 1; }
 .page-hero .section-inner {
-  max-width: none;
-  width: 100%;
+  width: min(100%, var(--maxw));
+  max-width: var(--maxw);
   margin: 0 auto;
   text-align: center;
 }
@@ -965,7 +904,7 @@ main#quarto-document-content {
   border-top: 1px solid var(--border) !important;
   color: var(--fg-muted);
   font-size: 0.85rem;
-  padding: 2.5rem clamp(1.25rem, 4vw, 3rem) !important;
+  padding: 2.5rem var(--page-pad) !important;
 }
 
 /* ============================================================
