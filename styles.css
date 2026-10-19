@@ -237,6 +237,13 @@ main#quarto-document-content {
 
 .hero-left { z-index: 2; }
 
+.hero-kicker {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
+}
 .hero-eyebrow {
   display: inline-flex;
   align-items: center;
@@ -250,8 +257,33 @@ main#quarto-document-content {
   font-weight: 500;
   letter-spacing: 0.04em;
   color: var(--fg-soft);
-  margin-bottom: 1.5rem;
+  margin-bottom: 0;
   backdrop-filter: blur(8px);
+}
+.award-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.85rem;
+  background: rgba(91, 140, 255, 0.12);
+  border: 1px solid rgba(91, 140, 255, 0.4);
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--accent-bright) !important;
+  backdrop-filter: blur(8px);
+  transition: background .2s, border-color .2s, color .2s;
+}
+.award-pill:hover {
+  background: rgba(91, 140, 255, 0.22);
+  border-color: var(--accent-bright);
+  color: var(--fg) !important;
+}
+#service, #honors { scroll-margin-top: 88px; }
+[data-bs-theme="light"] .award-pill {
+  background: rgba(44, 92, 255, 0.08);
+  border-color: rgba(44, 92, 255, 0.28);
 }
 .hero-eyebrow .live-dot {
   width: 6px; height: 6px; border-radius: 50%;
