@@ -1,7 +1,6 @@
 /* Quiet academic site. Paper, serif, narrow column. */
 
-:root,
-[data-bs-theme="light"] {
+:root {
   --bg: #f7f6f3;
   --fg: #1c1c1c;
   --fg-soft: #3f3f3c;
@@ -14,11 +13,12 @@
   --font-sans: system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
-[data-bs-theme="dark"] {
+/* Quarto 1.3 marks night mode with a class on body, not data-bs-theme. */
+body.quarto-dark {
   --bg: #161615;
   --fg: #eceae4;
   --fg-soft: #c9c6be;
-  --fg-muted: #8f8c84;
+  --fg-muted: #9a978f;
   --border: #2e2e2b;
   --bg-elev: #161615;
 }
@@ -28,6 +28,9 @@
 html {
   background: var(--bg);
   scroll-behavior: smooth;
+}
+html:has(body.quarto-dark) {
+  background: #161615;
 }
 
 body {
@@ -42,7 +45,7 @@ body {
 }
 
 ::selection { background: #d9d4c8; color: var(--fg); }
-[data-bs-theme="dark"] ::selection { background: #3a3934; color: var(--fg); }
+body.quarto-dark ::selection { background: #3a3934; color: var(--fg); }
 
 h1, h2, h3, h4 {
   color: var(--fg);
