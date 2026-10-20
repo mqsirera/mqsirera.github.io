@@ -8,9 +8,9 @@ project:
     - python3 fix_html.py
 
 website:
-  title: "Miquel Sirera"
+  title: "Miquel Sirera Perelló"
   site-url: "https://mqsirera.github.io"
-  description: "PhD student at Northeastern · LLMs, distributed systems, edge AI."
+  description: "PhD student at Northeastern, in the Data, Networks, and Algorithms Lab."
   favicon: "./files/favicon.ico"
   open-graph: true
   twitter-card: true

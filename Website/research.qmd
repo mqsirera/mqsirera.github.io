@@ -9,18 +9,16 @@ toc: false
 ```{=html}
 <header class="page-hero">
   <div class="section-inner">
-    <div class="ph-label">/ research</div>
-    <h1>Papers, <span class="accent">posters, and venues.</span></h1>
-    <p class="ph-lede">Most of my work sits at the intersection of AI, distributed systems, and wireless. Here's what's published and where to find it.</p>
+    <h1>Research</h1>
+    <p class="ph-lede">Papers, and the meetings where I've presented them.</p>
   </div>
 </header>
 
 <section class="section">
   <div class="section-inner">
     <header class="section-head">
-      <div class="section-label">/ publications</div>
       <div>
-        <h2 class="section-title">Selected <span class="accent">papers.</span></h2>
+        <h2 class="section-title">Papers</h2>
       </div>
     </header>
 
@@ -84,12 +82,33 @@ toc: false
   </div>
 </section>
 
-<section class="section" style="border-top: 1px solid var(--border);">
+<section class="section" id="service">
   <div class="section-inner">
     <header class="section-head">
-      <div class="section-label">/ on the road</div>
       <div>
-        <h2 class="section-title">Conferences <span class="accent">attended.</span></h2>
+        <h2 class="section-title">Service</h2>
+        <p class="section-lede">Reviewing for conferences.</p>
+      </div>
+    </header>
+
+    <div class="timeline">
+      <div class="tl-row">
+        <div class="tl-date">Oct 2026</div>
+        <div class="tl-content">
+          <h3>Top Reviewer, NeurIPS</h3>
+          <p class="tl-place">Main Reviewer · NeurIPS 2026</p>
+          <p class="tl-body">Recognized as a Top Reviewer for service as a Main Reviewer at NeurIPS 2026.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner">
+    <header class="section-head">
+      <div>
+        <h2 class="section-title">Conferences</h2>
       </div>
     </header>
 
@@ -116,14 +135,15 @@ toc: false
   </div>
 </section>
 
-<section class="contact-cta">
-  <div class="contact-eyebrow">/ Indexes</div>
-  <h2>Find me <span class="accent">elsewhere.</span></h2>
-  <div class="hero-cta" style="justify-content:center;">
-    <a class="btn-pill ghost" href="https://scholar.google.com/citations?user=DF9KcekAAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a>
-    <a class="btn-pill ghost" href="https://orcid.org/0009-0005-8840-6746" target="_blank" rel="noopener">ORCID ↗</a>
-    <a class="btn-pill ghost" href="https://dblp.org/pid/366/4777.html" target="_blank" rel="noopener">DBLP ↗</a>
-    <a class="btn-pill ghost" href="https://www.semanticscholar.org/author/Miquel-Sirera/2278836383" target="_blank" rel="noopener">Semantic Scholar ↗</a>
+<section class="block">
+  <div class="section-inner">
+    <h2>Indexes</h2>
+    <p class="mast-links">
+      <a href="https://scholar.google.com/citations?user=DF9KcekAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://orcid.org/0009-0005-8840-6746" target="_blank" rel="noopener">ORCID</a>
+      <a href="https://dblp.org/pid/366/4777.html" target="_blank" rel="noopener">DBLP</a>
+      <a href="https://www.semanticscholar.org/author/Miquel-Sirera/2278836383" target="_blank" rel="noopener">Semantic Scholar</a>
+    </p>
   </div>
 </section>
 ```
